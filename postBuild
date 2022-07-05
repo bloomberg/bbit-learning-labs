@@ -1,2 +1,0 @@
-sudo /jupyter_server/bin/python-server -m pip install bqplot
-sudo /jupyter_server/bin/python-server -m pip install ipytest
