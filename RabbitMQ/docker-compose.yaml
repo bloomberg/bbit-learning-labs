@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  rabbitmq:
+    image: 'rabbitmq:3-management'
+    ports:
+      # AMQ Protocol Port
+      - '5672:5672'
+      # RMQ Management UI Port
+      - '15672:15672'
+  rmq_lab_notebook:
+    build: notebook_build
+    depends_on:
+      - rabbitmq
+    ports:
+      #Jupyter notebook port 
+      - '8888:8888'
+    volumes:
+      #TODO fill in the full path of your current repo location
+      - '/home/mopezen/github/bbit-learning-labs/RabbitMQ:/app'
+    environment:
+      AMQP_URL: 'amqp://rabbitmq?connection_attempts=5&retry_delay=5'    

@@ -1,0 +1,5 @@
+numpy
+pytest
+ipytest
+bqplot
+pika
