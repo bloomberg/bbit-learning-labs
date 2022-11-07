@@ -14,15 +14,15 @@
 
 import pika
 from concurrent.futures import ThreadPoolExecutor
+from interfaces.consumerInterface import consumerInterface
 import time
-import threading
-from typing import Any
 import os
 
-class mqConsumer:
-    def __init__(self, routing_key : str) -> None:
+class mqConsumer(consumerInterface):
+    def __init__(self, routing_key : str, **kwargs) -> None:
         self.m_routing_key = routing_key
         self.m_pool = ThreadPoolExecutor(max_workers=1)
+        self.m_message_handler = kwargs.get("messageHandler")
         self.setupRMQConnection()
 
     def __del__(self):
@@ -33,7 +33,7 @@ class mqConsumer:
         conParams = pika.URLParameters(os.environ['AMQP_URL'])
         
         #Using blocking connection isn't safe across threads. Only use this within a single thread.
-        #Our current threadpool has a max of 1 work.
+        #Our current threadpool has a max of 1 worker.
         self.m_connection = pika.BlockingConnection(parameters=conParams)
         self.m_channel = self.m_connection.channel()
         
@@ -49,6 +49,9 @@ class mqConsumer:
         
     def on_message(self, channel, method_frame, header_frame, body):
         print(f"Incoming Data. Method_Frame:{method_frame}\nHeader_Frame:{header_frame}\nBody:{body}")
+        if self.m_message_handler:
+            self.m_message_handler(body)
+
         channel.basic_ack(method_frame.delivery_tag)
         
     def consumeBlock(self):
