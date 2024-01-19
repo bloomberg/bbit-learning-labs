@@ -8,8 +8,8 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-#Set envrionmental variables
-ENV PYTHONPATH /app
+#Set envrionmental variables for python module
+ENV PYTHONPATH /app/consumer:/app/producer:/app/market_watch
 
 # Default command to be run once container starts
 ENTRYPOINT ["/bin/bash","-c","jupyter lab"]
