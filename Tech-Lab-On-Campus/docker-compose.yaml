@@ -12,7 +12,7 @@ services:
     environment:
      - VHOST=rmq-docker-broker
   rmq_lab:
-    build: mini_lab_build
+    build: tech_lab_build
     depends_on:
       - rabbitmq
     ports:
