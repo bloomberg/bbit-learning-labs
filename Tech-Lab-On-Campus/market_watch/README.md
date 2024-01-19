@@ -30,7 +30,7 @@ Below are bullet points of the criteria:
     *   This service should read arguments from the command line, instantiate the consumer class, create a queue with the appropriate binding key. The consumer will acknowledge and print messages from the queue.
     * Example: The following command should create a consumer who prints messages from a Queue that receives only tech stocks-related messages such as  "NVDA price is $208.34"  
         
-        `$ python3 consumer.py -t tech`
+        `$ python3 consumer.py -s tech`
         
 ###### [Note: Utilize the following resource to help instantiate the [Topic Exchange](https://www.rabbitmq.com/tutorials/tutorial-five-python.html)]
 
