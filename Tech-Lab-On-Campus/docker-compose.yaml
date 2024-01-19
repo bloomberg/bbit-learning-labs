@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  rabbitmq:
+    image: 'rabbitmq:3-management'
+    hostname: rabbit
+    ports:
+      # AMQ Protocol Port
+      - '30424:30424'
+      # RMQ Management UI Port
+      - '15672:15672'
+    environment:
+     - VHOST=rmq-docker-broker
+  rmq_lab:
+    build: tech_lab_build
+    depends_on:
+      - rabbitmq
+    ports:
+      #Jupyter notebook port 
+      - '8888:8888'
+    volumes:
+      - ./:/app
+    environment:
+      AMQP_URL: 'amqp://rabbitmq?connection_attempts=5&retry_delay=5'    
