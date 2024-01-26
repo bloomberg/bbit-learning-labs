@@ -37,7 +37,7 @@ cd bbit-learning-labs/Tech-Lab-On-Campus
 docker -v && docker-compose -v
 ```
 * If this works correctly, you will have the versions of Docker and Docker Compose printed to the terminal.
-* `Note:` If you encounter an error at this step navigate to advanced settings on your  Docker Desktop and ensure that `System (requires password)` is selected. This tab can be found by clicking on the gear icon in the top right corner.
+* Note: If you encounter an error at this step navigate to advanced settings on your  Docker Desktop and ensure that `System (requires password)` is selected. This tab can be found by clicking on the gear icon in the top right corner.
 
 4. Utilize Docker to generate and execute a functional image of the project directly from the terminal within your chosen Integrated Development Environment (IDE). Whether you opt for developing the project in Jupyter Notebook or your preferred IDE, follow the steps outlined below to ensure a smooth setup and execution process:
 
@@ -63,7 +63,7 @@ B) IDE
 * `docker-compose up -d` : Starts our rabbitmq and python service in detached mode (-d), running them in the background.
 * `docker-compose exec rmq_lab /bin/bash` : This command will open an interactive Bash shell inside the rmq_lab service container. Once you are inside the container you can run Python scripts.
 
-* `Note:` If you encounter an error such as `unix:///Users/userName/.docker/run/docker.sock. Is the docker daemon running?`, please ensure that your Docker application is running.
+* Note: If you encounter an error such as `unix:///Users/userName/.docker/run/docker.sock. Is the docker daemon running?`, please ensure that your Docker application is running.
 
 5. Log Into the RabbitMQ Website.
 * From your desktop, open Docker Desktop Dashboard.
