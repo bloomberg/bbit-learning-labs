@@ -36,7 +36,8 @@ cd bbit-learning-labs/Tech-Lab-On-Campus
 ```sh
 docker -v && docker-compose -v
 ```
-If this works correctly, you will have the versions of Docker and Docker Compose printed to the terminal.
+* If this works correctly, you will have the versions of Docker and Docker Compose printed to the terminal.
+* Note: If you encounter an error at this step navigate to advanced settings on your  Docker Desktop and ensure that `System (requires password)` is selected. This tab can be found by clicking on the gear icon in the top right corner.
 
 4. Utilize Docker to generate and execute a functional image of the project directly from the terminal within your chosen Integrated Development Environment (IDE). Whether you opt for developing the project in Jupyter Notebook or your preferred IDE, follow the steps outlined below to ensure a smooth setup and execution process:
 
