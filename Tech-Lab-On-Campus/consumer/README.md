@@ -12,8 +12,15 @@ Below are bullet points of the criteria:
 - setupRMQConnection Function: Establish connection to the RabbitMQ service, declare a queue and exchange, bind the binding key to the queue on the exchange and finally set up a callback function for receiving messages
 - onMessageCallback: Print the UTF-8 string message and then close the connection.
 - startConsuming:  Consumer should start listening for messages from the queue.
+- Connection: When building your connection use a `URLParameters` object created by the code snippet below. This will create a connection object with parameters that allow your consumer client to connect to the docker container hosting your RMQ broker. 
 
-###### [Note: Utilize the following resource to help instantiate the Producer Class: [RabbitMQ Tutorial](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)]
+```
+conn_params = pika.URLParameters(os.environ["AMQP_URL"])
+connection = pika.BlockingConnection(parameters=con_params)
+```
+
+###### [Note: Utilize the following resource to help instantiate the Consumer Class: [RabbitMQ Tutorial](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)]
+###### [Note: For more information on connections using Pika please refer to this [link](https://pika.readthedocs.io/en/stable/examples/using_urlparameters.html)
 
 ## Testing
 In order to verify that the consumer class was properly instantiated, we will use the provided  `consume.py`, and `publish.py` file from the previous section on the producer. Follow the below instructions:
