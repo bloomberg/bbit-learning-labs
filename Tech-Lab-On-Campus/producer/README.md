@@ -14,6 +14,8 @@ Below are bullet points of the criteria:
 - Connection: When building your connection use a `URLParameters` object created by the code snippet below. This will create a connection object with parameters that allow your producer client to connect to the docker container hosting your RMQ broker. 
 
 ```
+import os, pika
+
 conn_params = pika.URLParameters(os.environ["AMQP_URL"])
 connection = pika.BlockingConnection(parameters=con_params)
 ```
