@@ -20,10 +20,10 @@ from consumer_interface import mqConsumerInterface
 
 class mqConsumer(mqConsumerInterface):
     def __init__(
-        self, routing_key: str, queue_name: str, exchange_name: str
+        self, binding_key: str, exchange_name: str, queue_name: str
     ) -> None:
         # Save parameters to class variables
-        self.m_routing_key = routing_key
+        self.m_binding_key = binding_key
         self.m_queue_name = queue_name
         self.m_exchange_name = exchange_name
         # Call setupRMQConnection
@@ -46,7 +46,7 @@ class mqConsumer(mqConsumerInterface):
         # Bind Binding Key to Queue on the exchange
         self.m_channel.queue_bind(
             queue=self.m_queue_name,
-            routing_key=self.m_routing_key,
+            routing_key=self.m_binding_key,
             exchange=self.m_exchange_name,
         )
 
