@@ -22,7 +22,7 @@ from producer_sol import mqProducer  # pylint: disable=import-error
 
 
 def main() -> None:
-    producer = mqProducer("Routing Key", "Exchange Name")
+    producer = mqProducer(routing_key="Routing Key",exchange_name="Exchange Name")
     producer.publishOrder("Hello World")
 
 

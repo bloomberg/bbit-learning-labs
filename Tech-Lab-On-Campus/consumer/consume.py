@@ -21,7 +21,7 @@ from consumer_sol import mqConsumer  # pylint: disable=import-error
 
 
 def main() -> None:
-    consumer = mqConsumer("Routing Key", "Queue Name", "Exchange Name")
+    consumer = mqConsumer(binding_key="Routing Key",exchange_name="Exchange Name",queue_name="Queue Name")
     consumer.startConsuming()
 
 
