@@ -4,6 +4,11 @@
 
 The idea of this lab is to offer exposure to the RabbitMQ messaging framework, providing a basic understanding of the technology and the producer consumer relationship. During the lab you will apply your learning to create small system to setup information update on securities on interest. 
 
+## Unit Ordering List
+
+1. [Producer-AND-Consumer](./Producer-AND-Consumer)
+2. [Topic-Exchange](./Topic-Exchange)
+
 ## Key Learning Items
 
 - Python CS Concepts
@@ -30,7 +35,7 @@ For this project, we're going to leverage the use of Docker to create a helpful 
   * Note: Replace the username
 
     ```sh
-    git clone git@github.com:[username]/bbit-learning-labs.git
+    git clone [SSH KEY]
     ```
 
 3. Navigate to the 'Tech-Lab-On-Campus' folder.
@@ -47,7 +52,7 @@ For this project, we're going to leverage the use of Docker to create a helpful 
 
 5. Utilize Docker to generate and execute a functional image of the project directly from the terminal within your chosen Integrated Development Environment (IDE). 
 
-Follow the steps outlined below to ensure a smooth setup and execution process:
+There are two options to work on this project. Option [A] using an IDE, we recommend using VSCode. Option [B] using the jupyter notebook. Follow the steps outlined for the desired option to ensure a smooth setup and execution process:
 
 * A) IDE  
     * In the terminal window of your IDE run:
@@ -59,18 +64,6 @@ Follow the steps outlined below to ensure a smooth setup and execution process:
 
         * Note: If you encounter an error such as `unix:///Users/userName/.docker/run/docker.sock. Is the docker daemon running?`, please ensure that your Docker application is running.
 
-    * Log Into the RabbitMQ Website.
-        * From your desktop, open Docker Desktop Dashboard.
-        * Find the Rabbitmq container and click on the URL under Port(s) for the U.I. This should open up the RabbitMQ website on your default browser.
-        * Login username and password should be "guest"
-    
-    * Alternative:  Click on one of the generated URLs in your terminal, such as "http://localhost:15672/", once your docker container is up and running.
-    
-    * After setting up IDE you should have access to rabbit mq management. It will look like the following.
-        ![rabbitmqup](../data/rabbit_mq_up.PNG)   
-    * You are now ready to start the lab. Begin by navigating to the producer folder and reading the "README.md" file. Each of the three units will contain a readme file which will give you the necessary instructions to complete the lab and test your solution.
-
-  
 * B) Jupyter Notebook
     * In the terminal window of your IDE run:
         ```sh
@@ -84,12 +77,17 @@ Follow the steps outlined below to ensure a smooth setup and execution process:
             rmq_lab-1   |         http://d572024fabe2:8888/lab?token=4a07fca9cd4a66eba129533a6272f5f5443fdf3f0b7c0e5e
             rmq_lab-1   |         http://127.0.0.1:8888/lab?token=4a07fca9cd4a66eba129533a6272f5f5443fdf3f0b7c0e5e
         ```
+* Log Into the RabbitMQ Website.
+        * From your desktop, open Docker Desktop Dashboard.
+        * Find the Rabbitmq container and click on the URL under Port(s) for the U.I. This should open up the RabbitMQ website on your default browser.
+        * Login username and password should be "guest"
+    
+    * Alternative:  Click on one of the generated URLs in your terminal, such as "http://localhost:15672/", once your docker container is up and running.
+    
+    * After setting up IDE you should have access to rabbit mq management. It will look like the following.
+        ![rabbitmqup](../data/rabbit_mq_up.PNG)   
+    * You are now ready to start the lab. Begin by navigating to the [Producer-AND-Consumer](./Producer-AND-Consumer) folder and reading the "README.md" file. Each of the units will contain a readme file which will give you the necessary instructions to complete the lab and test your solution.
    
 6. Helpful information can be found under [Resources](./Resources). Files with Python, GIT, and Rabbit Mq details. Ensure you read them before you start working on your implementation.
 
-## Unit Ordering List
-
-1. Producer 
-2. Consumer 
-3. Market Watch
 
