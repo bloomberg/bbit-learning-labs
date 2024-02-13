@@ -25,7 +25,7 @@ The idea of this lab is to offer exposure to the RabbitMQ messaging framework, p
 - Docker
 
 ## Setting Up Our Environment
-For this project, we're going to leverage the use of Docker to create a helpful development environment for all of the engineers. [Docker](https://docs.docker.com/desktop/) is a tool used to integrate software dependencies and allow developers to quickly spin up software builds in portable lightweight containers which provide consistent environments, ensuring applications run the same way across various platforms. Here are the steps to check that the environment is running correctly:
+For this project, we're going to leverage the use of Docker to create a helpful development environment for all of the engineers. [Docker](https://docs.docker.com/desktop/) is a tool used to integrate software dependencies and allow developers to quickly spin up software builds in portable lightweight containers which provide consistent environments, ensuring applications run the same way across various platforms. 
 
 1. Fork the repo
 ![fork](../data/fork-1.JPG)
@@ -76,7 +76,8 @@ There are two options to work on this project. Option [A] using an IDE, we recom
             rmq_lab-1   |         http://d572024fabe2:8888/lab?token=4a07fca9cd4a66eba129533a6272f5f5443fdf3f0b7c0e5e
             rmq_lab-1   |         http://127.0.0.1:8888/lab?token=4a07fca9cd4a66eba129533a6272f5f5443fdf3f0b7c0e5e
         ```
-* Log Into the RabbitMQ Website.
+6. Here are the steps to check that the environment is running correctly:
+    * Log Into the RabbitMQ Website.
         * From your desktop, open Docker Desktop Dashboard.
         * Find the Rabbitmq container and click on the URL under Port(s) for the U.I. This should open up the RabbitMQ website on your default browser.
         * Login username and password should be "guest"
@@ -87,6 +88,6 @@ There are two options to work on this project. Option [A] using an IDE, we recom
         ![rabbitmqup](../data/rabbit_mq.PNG)   
     * You are now ready to start the lab. Begin by navigating to the [Producer-AND-Consumer](./Producer-And-Consumer/README.md) folder and reading the "README.md" file. Each of the units will contain a readme file which will give you the necessary instructions to complete the lab and test your solution.
    
-6. Helpful information can be found under Resources Files with Python, GIT, and Rabbit Mq details. Ensure you read them before you start working on your implementation.
+7. Helpful information can be found under Resources Files with Python, GIT, and Rabbit Mq details. Ensure you read them before you start working on your implementation.
 
 
