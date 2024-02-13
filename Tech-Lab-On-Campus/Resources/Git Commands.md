@@ -160,9 +160,3 @@ _For more, check out the [Git Cheat Sheet](https://education.github.com/git-chea
 | [`git push`](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) | Push local changes up to remote git branch                                                                                                      |
 | `git checkout -b branch-name`                                                                         | create new branch, branch-name                                                                                                                  |
 | `git checkout branch-name`                                                                            | open up the branch branch-name                                                                                                                  |
-
-## Other Useful Resources
-
-- [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
-- [![Video Tutorial Playlist](https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)](https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
-- [![How to roll back to a previous commit in Git](https://www.youtube.com/watch?v=ml2N3APdoB0)](https://www.youtube.com/watch?v=ml2N3APdoB0)
