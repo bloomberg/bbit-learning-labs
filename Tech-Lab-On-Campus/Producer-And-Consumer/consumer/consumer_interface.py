@@ -39,11 +39,15 @@ class mqConsumerInterface:
     def on_message_callback(
         self, channel, method_frame, header_frame, body
     ) -> None:
-        # Acknowledge and print message
+        # Acknowledge message
+
+        #Print message
 
         # Close channel and connection
         pass
 
     def startConsuming(self) -> None:
+        # Print " [*] Waiting for messages. To exit press CTRL+C"
+
         # Start consuming messages
         pass

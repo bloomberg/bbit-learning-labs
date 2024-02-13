@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import json
 import os
 
 import pika
@@ -19,13 +20,10 @@ from consumer_interface import mqConsumerInterface
 
 
 class mqConsumer(mqConsumerInterface):
-    def __init__(
-        self, binding_key: str, exchange_name: str, queue_name: str
-    ) -> None:
+    def __init__(self, exchange_name: str) -> None:
         # Save parameters to class variables
-        self.m_binding_key = binding_key
-        self.m_queue_name = queue_name
         self.m_exchange_name = exchange_name
+
         # Call setupRMQConnection
         self.setupRMQConnection()
 
@@ -37,41 +35,41 @@ class mqConsumer(mqConsumerInterface):
         # Establish Channel
         self.m_channel = self.m_connection.channel()
 
-        # Create Queue if not already present
-        self.m_channel.queue_declare(queue=self.m_queue_name)
-
         # Create the exchange if not already present
-        self.m_channel.exchange_declare(self.m_exchange_name)
+        self.m_channel.exchange_declare(
+            self.m_exchange_name, exchange_type="topic"
+        )
 
+    def bindQueueToExchange(self, queueName: str, topic: str) -> None:
         # Bind Binding Key to Queue on the exchange
         self.m_channel.queue_bind(
-            queue=self.m_queue_name,
-            routing_key=self.m_binding_key,
-            exchange=self.m_exchange_name,
+            queue=queueName, routing_key=topic, exchange=self.m_exchange_name
         )
+
+    def createQueue(self, queueName: str) -> None:
+        # Create Queue if not already present
+        self.m_channel.queue_declare(queue=queueName)
 
         # Set-up Callback function for receiving messages
         self.m_channel.basic_consume(
-            self.m_queue_name, self.on_message_callback, auto_ack=False
+            queueName, self.on_message_callback, auto_ack=True
         )
 
     def on_message_callback(
         self, channel, method_frame, header_frame, body
     ) -> None:
-        # Acknowledge Message 
-        channel.basic_ack(method_frame.delivery_tag, False)
+        # De-Serialize JSON message object
+        message = json.loads(body)
 
-        # Print Message
-        print(f" [x] Received Message: {body}")
-
-        # Close channel and connection
-        self.m_channel.close()
-        self.m_connection.close()
+        # Acknowledge And Print Message
+        print(f"{message['name']} current price is ${message['price']}")
 
     def startConsuming(self) -> None:
-        
-        # Print " [*] Waiting for messages. To exit press CTRL+C"
-        print(" [*] Waiting for messages. To exit press CTRL+C")
-
         # Start consuming messages
+        print(" [*] Waiting for messages. To exit press CTRL+C")
         self.m_channel.start_consuming()
+
+    def __del__(self) -> None:
+        print(f"Closing RMQ connection on destruction")
+        self.m_channel.close()
+        self.m_connection.close()
