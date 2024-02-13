@@ -87,6 +87,12 @@ In this module, there is a variable, `sys.argv`, which is a list. Some things to
 3. All arguments are **strings**!
 
 Example:
+
+Command:
+```sh
+python3 read_cmd_line.py apple banana
+```
+
 ```sh
 """
 Read arguments from command line using sys.argv
