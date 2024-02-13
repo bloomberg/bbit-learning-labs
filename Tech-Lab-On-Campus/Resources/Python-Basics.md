@@ -86,7 +86,7 @@ In this module, there is a variable, `sys.argv`, which is a list. Some things to
 2. sys.argv[0] will be the name of the file given
 3. All arguments are **strings**!
 
-Example
+**Example**
 
 Command:
 ```sh
