@@ -25,19 +25,23 @@ For this project, we're going to leverage the use of Docker to create a helpful 
 1. Fork the repo
 ![fork](../data/fork.JPG)
 
-2. Clone the forked repo into your working directory.
-```sh
-git clone git@github.com:username/bbit-learning-labs.git
-```
+2. Clone the forked repo into your working directory. Copy ssh. 
+![ssh](../data/copy_ssh.PNG)
+  * Note: Replace the username
+
+    ```sh
+    git clone git@github.com:[username]/bbit-learning-labs.git
+    ```
+
 3. Navigate to the 'Tech-Lab-On-Campus' folder.
-```sh
-cd bbit-learning-labs/Tech-Lab-On-Campus
-```
+    ```sh
+    cd bbit-learning-labs/Tech-Lab-On-Campus
+    ```
 
 4. Confirm that Docker and Docker Compose are working on your system.
-```sh
-docker -v && docker-compose -v
-```
+    ```sh
+    docker -v && docker-compose -v
+    ```
 * If this works correctly, you will have the versions of Docker and Docker Compose printed to the terminal.
 * Note: If you encounter an error at this step navigate to advanced settings on your  Docker Desktop and ensure that `System (requires password)` is selected. This tab can be found by clicking on the gear icon in the top right corner.
 
