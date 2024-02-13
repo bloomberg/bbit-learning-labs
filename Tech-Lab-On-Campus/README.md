@@ -6,7 +6,7 @@ The idea of this lab is to offer exposure to the RabbitMQ messaging framework, p
 
 ## Unit Ordering List
 
-1. [Producer-AND-Consumer](./Producer-AND-Consumer/README.md)
+1. [Producer-AND-Consumer](./Producer-And-Consumer/README.md)
 2. [Topic-Exchange](./Topic-Exchange/README.md)
 
 ## Key Learning Items
@@ -28,7 +28,7 @@ The idea of this lab is to offer exposure to the RabbitMQ messaging framework, p
 For this project, we're going to leverage the use of Docker to create a helpful development environment for all of the engineers. [Docker](https://docs.docker.com/desktop/) is a tool used to integrate software dependencies and allow developers to quickly spin up software builds in portable lightweight containers which provide consistent environments, ensuring applications run the same way across various platforms. Here are the steps to check that the environment is running correctly:
 
 1. Fork the repo
-![fork](../data/fork.JPG)
+![fork](../data/fork-1.JPG)
 
 2. Clone the forked repo into your working directory. Copy ssh. 
 ![ssh](../data/copy_ssh.PNG)
@@ -86,7 +86,7 @@ There are two options to work on this project. Option [A] using an IDE, we recom
     
     * After setting up IDE you should have access to rabbit mq management. It will look like the following.
         ![rabbitmqup](../data/rabbit_mq_up.PNG)   
-    * You are now ready to start the lab. Begin by navigating to the [Producer-AND-Consumer](./Producer-AND-Consumer/README.md) folder and reading the "README.md" file. Each of the units will contain a readme file which will give you the necessary instructions to complete the lab and test your solution.
+    * You are now ready to start the lab. Begin by navigating to the [Producer-AND-Consumer](./Producer-And-Consumer/README.md) folder and reading the "README.md" file. Each of the units will contain a readme file which will give you the necessary instructions to complete the lab and test your solution.
    
 6. Helpful information can be found under Resources Files with Python, GIT, and Rabbit Mq details. Ensure you read them before you start working on your implementation.
 
