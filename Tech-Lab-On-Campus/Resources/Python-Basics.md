@@ -17,10 +17,11 @@ Here is an example of a simple class:
 ```sh
 class Animal:
     def __init__(self, name):
+        # body of constructor
         self.name = name
 
     def eat(self):
-        print(f"{self.name} is eating.")
+        print(self.name, "is eating.")
 ```
 
 ## Saving a Instance Variable and Calling the Variable
@@ -33,7 +34,7 @@ class Dog(DogInterface):
 
     def bark(self) -> None:
         # Print {name of dog} is barking!
-        print(f"{self.name} is barking!")
+        print(self.name, "is barking!")
 ```
 We can access the name initialized in the `__init__` method with `self`. When we want to create an object of this class with a name and call the method, `bark()`, it can access the name given and print out the statement. Remember, this is an example. You can initialize more variables within any of the class methods and access it through `self`!
 
@@ -61,7 +62,7 @@ class Dog(DogInterface):
 
     def bark(self):
         # Print {name of dog} is barking!
-        print(f"{self.name} is barking!")
+        print(self.name, "is barking!")
 ```
 Since `Dog` is inheriting `DogInterface`, we implement the methods according to how we want both methods to work.
 
