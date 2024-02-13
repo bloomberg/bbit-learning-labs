@@ -6,8 +6,8 @@ The idea of this lab is to offer exposure to the RabbitMQ messaging framework, p
 
 ## Unit Ordering List
 
-1. [Producer-AND-Consumer](./Producer-AND-Consumer)
-2. [Topic-Exchange](./Topic-Exchange)
+1. [Producer-AND-Consumer](./Producer-AND-Consumer/README.md)
+2. [Topic-Exchange](./Topic-Exchange/README.md)
 
 ## Key Learning Items
 
