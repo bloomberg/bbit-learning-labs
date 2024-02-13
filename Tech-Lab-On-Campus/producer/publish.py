@@ -18,7 +18,7 @@ import os
 import sys
 
 # Update the import to match the producer class file you created if it's different then the default
-from producer_sol import mqProducer  # pylint: disable=import-error
+from solution.producer_sol import mqProducer  # pylint: disable=import-error
 
 
 def main() -> None:
