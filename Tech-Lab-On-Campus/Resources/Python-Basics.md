@@ -86,13 +86,13 @@ In this module, there is a variable, `sys.argv`, which is a list. Some things to
 2. sys.argv[0] will be the name of the file given
 3. All arguments are **strings**!
 
-Example:
+Example
 
-Command
+Command:
 ```sh
 python3 read_cmd_line.py apple banana
 ```
-Code
+Code:
 ```sh
 """
 Read arguments from command line using sys.argv
@@ -106,5 +106,5 @@ print("Argument list: ", sys.argv)
 print("Argument list type: ", type(sys.argv))
 print("Give the first argument (after program name): ", sys.argv[1])
 ```
-Output
+Output:
 ![alt text](./images/sys-argv-image.jpg)
