@@ -32,7 +32,6 @@ For this project, we're going to leverage the use of Docker to create a helpful 
 
 2. Clone the forked repo into your working directory. Copy ssh. 
 ![ssh](../data/copy_ssh.PNG)
-  * Note: Replace the username
 
     ```sh
     git clone [SSH KEY]
