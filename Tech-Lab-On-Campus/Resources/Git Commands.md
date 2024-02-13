@@ -5,9 +5,7 @@
 Git is a distributed version control system that helps developers collaborate on projects of any scale. This allows developers to bring a repo full of code down to their workstations, perform their work items, and then put it back into a central server.
 
 ## Commands You'll Need For Today
-
-_\# indicates a comment_
-
+_\# indicates a comment in bash_
 
 ### Check status of changes
 
@@ -17,7 +15,7 @@ git status
 ```
 - The git **status** command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
 
-### Commit your (incremental, atomic) changes to your local feature branch
+### Upload Your Changes Step 1: Add Files to be Tracked
 ```bash
 # add file interactively one by one
 git add -p
@@ -25,22 +23,27 @@ git add -p
 git add file1 file2
 # OR add all changed files (what you'll do more often than not)
 git add .
+```
+- The git **add** command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.
 
+
+### Upload Your Changes Step 2: Save Changes in a Commit
+```
 # Commit changes with a descriptive commit message
 git commit -m "commit description"
+```
+- Changes are not actually recorded after `git add` until you run `git commit`.
+- A **commit** captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.
 
-# Push changes up to remote
+### Upload Your Changes Step 3: Push Committed Changes to Remote Repository
+```
+# Push changes up to remote repo in whatever branch you are working in
 git push
 
 # if is your first time pushing, git will show you a message of where to set the push stream
 git push --set-upstream origin my-new-feature
 ```
-- When working in Git, or other version control systems, the concept of "saving" is a more nuanced process than saving in a word processor or other traditional file editing applications.
-- The traditional software expression of "saving" is synonymous with the Git term "committing".
-- A commit is the Git equivalent of a "save".
-- Traditional saving should be thought of as a file system operation that is used to overwrite an existing file or write a new file. Alternatively, Git committing is an operation that acts upon a collection of files and directories.
-- The git **add** command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.
-- However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git **commit**.
+- The git **push** command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo.
 
 ### Get changes from origin/main to current branch
 
