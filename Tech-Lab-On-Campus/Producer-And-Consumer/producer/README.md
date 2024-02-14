@@ -26,4 +26,4 @@ To test your producer class, we'll use Docker to set up a container running Rabb
 * Return to the RabbitMQ website.
 * Look Under the Overview Tab for message rates to verify that a message was sent. Your message rate should look like the image below.
 
-![alt text](../../../dataImages/message_rate.jpeg)
+![alt text](../../../data/Images/message_rate.jpeg)

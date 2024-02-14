@@ -6,7 +6,7 @@ RabbitMQ is a lightweight, language agnostic & open source messaging software th
 
 Within this lab we'll focus on setting up a basic producer-consumer framework within rabbitMQ. This is just the beginning and there are many more ways rabbitMQ can be used! For more learning opportunities check out the official rabbitMQ [Getting Started](https://www.rabbitmq.com/getstarted.html) page.
 
-![direct](../../dataImages/direct-exchange.jpg)
+![direct](../../data/Images/direct-exchange.jpg)
 
 ### What is a Producer?
 
@@ -37,7 +37,7 @@ channel.basic_publish('Test Exchange', 'Test_route', 'Hi',...)
 ### Topic Exchange
 A **topic exchange** route messages to one or many queues based on matching between a message routing key and the pattern that was used to bind a queue to an exchange.
 
-![topic](../../dataImages/topic-exchange.jpg)
+![topic](../../data/Images/topic-exchange.jpg)
 
 
 Messages sent to a topic exchange must use a routing and binding key that are a list of words separated by dots (ex. `some.routing.key`). Topic exchanges are similar to **direct exchanges** in logic; a message sent with a particular routing key will be delivered to all the queues that are bound with a matching binding key.
