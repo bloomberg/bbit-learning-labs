@@ -17,18 +17,18 @@ git status
 
 ### Upload Your Changes Step 1: Add Files to be Tracked
 ```bash
-# add file interactively one by one
+# add files by paths
+git add [fileName] 
+# OR add file interactively one by one
 git add -p
-# OR add files by paths
-git add file1 file2
 # OR add all changed files (what you'll do more often than not)
-git add .
+git add --all 
 ```
 - The git **add** command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.
 
 
 ### Upload Your Changes Step 2: Save Changes in a Commit
-```
+```bash
 # Commit changes with a descriptive commit message
 git commit -m "commit description"
 ```
@@ -36,11 +36,11 @@ git commit -m "commit description"
 - A **commit** captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.
 
 ### Upload Your Changes Step 3: Push Committed Changes to Remote Repository
-```
+```bash
 # Push changes up to remote repo in whatever branch you are working in
 git push
 
-# if is your first time pushing, git will show you a message of where to set the push stream
+# IF it is your first time pushing, git will show you a message of where to set the push stream
 git push --set-upstream origin my-new-feature
 ```
 - The git **push** command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo.
@@ -52,16 +52,6 @@ git push --set-upstream origin my-new-feature
 git pull origin main
 ```
 - The git **pull** command is used to fetch and download content from a remote repository and immediately update the local repository to match that content
-
-
-### Create feature branch from main to make changes
-
-```bash
-# my-new-feature is identical to main when you first create the branch. the -b tag creates the new tag
-git checkout -b my-new-feature
-```
-- Similar to cloning a repository, **checking out** a branch lets you move from branch to branch, making sure you're only working on the parts of projects that you intend to.
-
 
 # An In-Depth Look at Git
 

@@ -87,7 +87,6 @@ There are two options to work on this project. Option [A] using an IDE, we recom
     * After setting up IDE you should have access to rabbit mq management. It will look like the following.
         ![rabbitmqup](../data/rabbit_mq.PNG)   
     * You are now ready to start the lab. Begin by navigating to the [Producer-AND-Consumer](./Producer-And-Consumer/README.md) folder and reading the "README.md" file. Each of the units will contain a readme file which will give you the necessary instructions to complete the lab and test your solution.
-   
-7. Helpful information can be found under Resources Files with Python, GIT, and Rabbit Mq details. Ensure you read them before you start working on your implementation.
+
 
 

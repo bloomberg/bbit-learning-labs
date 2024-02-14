@@ -26,11 +26,11 @@ In order to verify that the consumer class was properly instantiated, we will us
 * Click on tab `Queues and Streams`.
 * Under this tab you should see your created Queue appropriately named `Tech Lab Queue`
 
-![alt text](./consumerQueue.jpeg)
+![alt text](./images/consumerQueue.jpeg)
 
 4. Check Binding
 * Click on the "Tech Lab Queue" 
 * You should see under `Bindings` that the Queue is bound to the exchange `Tech Lab Exchange` with the key `Tech Lab Key`
 
-![alt text](./consumerBinding.jpeg)
+![alt text](./images/consumerBinding.jpeg)
 
