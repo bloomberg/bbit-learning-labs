@@ -6,6 +6,8 @@ RabbitMQ is a lightweight, language agnostic & open source messaging software th
 
 Within this lab we'll focus on setting up a basic producer-consumer framework within rabbitMQ. This is just the beginning and there are many more ways rabbitMQ can be used! For more learning opportunities check out the official rabbitMQ [Getting Started](https://www.rabbitmq.com/getstarted.html) page.
 
+![direct](../../Data/Images/direct-exchange.jpg)
+
 ### What is a Producer?
 
 A producer is a entity (object, application, etc) that creates & sends information to be distributed. In RabbitMQ producers send these messages to an exchange. You can have multiple producers which depending on the exchange will send data to 0 to N queues. For this lab we'll focus on using a single producer. Producers send messages to exchanges along with the routing key associated with that message. At a high level this routing key tells the rabbitMQ framework that the producer would like to send the associated message to queues that match a given regex string. The replication & matching of the routing key is dependant on the type of exchange (explained below). A more concrete example is, we may have a message intended for a particular set of schools that are all in the US. My routing key in that scenario would be "US" which would signal this particular message should go to queues designated as US.
@@ -35,6 +37,9 @@ channel.basic_publish('Test Exchange', 'Test_route', 'Hi',...)
 ### Topic Exchange
 A **topic exchange** route messages to one or many queues based on matching between a message routing key and the pattern that was used to bind a queue to an exchange.
 
+![topic](../../Data/Images/topic-exchange.jpg)
+
+
 Messages sent to a topic exchange must use a routing and binding key that are a list of words separated by dots (ex. `some.routing.key`). Topic exchanges are similar to **direct exchanges** in logic; a message sent with a particular routing key will be delivered to all the queues that are bound with a matching binding key.
 - Using a `*` symbol in your binding key will substitute it with __exactly 1 word__
 - Using a `#` symbol in your binding key will substitute it with __0 or more words__
@@ -56,28 +61,3 @@ channel.basic_publish(
     exchange='topic_logs', routing_key=routing_key, body=message)
 print(f" [x] Sent {routing_key}:{message}")
 ```
-
-# Basic Financial Concepts
-
-### What is a Stock?
-
-A stock like **APPL**, is a financial instrument representing a **fractional ownership stake in a corporation** such as Google or Costco. **A unit of stock is called a "share."** "Shares"respective values are proportional to the total monetary worth of a company. 
-
-Note that stocks for a given company are identified by a combination of letters and symbols rather than the company name; this is called its **ticker symbol.** For example, the ticker symbol for Apple is **APPL**.
-
-### What is a Position?
-A position represents **how much of a particular stock is owned by an individual or financial firm.** Simply put, it lets you know how much of a financial asset you own.
-
-For example, you could have a position like this:
-
-A position of **2,000** shares of **MSFT**!
-
-### What is a Portfolio?
-
-A portfolio represents a **collection of all the investments an individual or entity owns.** These financial investments can be any combination of any financial assets such as  **stocks, bonds,cash**, etc.
-
-For example, I could have a portfolio which contains the positions:
-
-**10** shares of **MSFT USD**  and **10** shares of **AAPL USD**
-
-Hypothetically, if a stock of MSFT is worth $50 each and a stock of AAPL is worth $20 each, then the total value of the portfolio above would be $70.
