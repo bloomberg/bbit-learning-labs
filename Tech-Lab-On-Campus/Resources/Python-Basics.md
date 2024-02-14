@@ -107,4 +107,4 @@ print("Argument list type: ", type(sys.argv))
 print("Give the first argument (after program name): ", sys.argv[1])
 ```
 Output:
-![alt text](../../Data//Images/sys-argv-image.jpg)
+![alt text](../../data/Images/sys-argv-image.jpg)
