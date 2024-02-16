@@ -13,8 +13,6 @@ Below are bullet points of the criteria:
 - setupRMQConnection Function: Establish connection to the RabbitMQ service.
 - publishOrder:  Publish a simple UTF-8 string message from the parameter. 
 
-###### [Note: Utilize the following resource to help instantiate the Producer Class: [RabbitMQ Toturial](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)]
-
 ## Testing
 To test your producer class, we'll use Docker to set up a container running RabbitMQ. We'll then create a testing container where you can run the test code provided. To validate the messages are being sent, you'll utilize the RabbitMQ container's management web application.
 1. Log Into the RabbitMQ website.

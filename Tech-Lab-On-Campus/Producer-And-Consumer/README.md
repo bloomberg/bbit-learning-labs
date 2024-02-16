@@ -6,14 +6,14 @@ In this section, you will collaborate with a partner to instantiate the producer
 
 Below are bullet points of the criteria:
 - First ensure that each contributor is working from and has `cloned the same fork` of the BBIT-LEARNING-LABS repository.
-- Second ensure the each contributor has been `added as a collaborator to the fork.`
+- Second ensure that each contributor has been `added as a collaborator to the fork.`
 - One person completes the `producer section.`
 - One person completes the `consumer section.`
 - Each contributor should then `git push` their solutions to the fork.
 - Lastly, follow the `testing instructions below` to send and recieve a message to complete this section.
 
    
-`IMPORTANT!!!` Please utlize the [Functions.md](./Resources/Functions.md) file as it contains almost all the functions you will need for this lab. Also, other helpful information can be found under the Resources folder for Python, Git, and RabbitMQ details.
+`IMPORTANT!!!` Please utlize the [Functions.md](../Resources/Functions.md) file as it contains almost all the functions you will need for this lab. Also, other helpful information can be found under the Resources folder for Python, Git, and RabbitMQ details.
 
 ## Testing
 In order to verify that the consumer and producer class was properly instantiated, we will use the provided  `consume.py`, and `publish.py` file from producer and consumer folder. Follow the below instructions:
