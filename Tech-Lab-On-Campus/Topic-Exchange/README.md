@@ -1,7 +1,7 @@
 # Problem Definition: ✨Topic Exchange✨
 
 ##  Instructions
-In this section, we will create a [Topic Exchange](../README.md#topic-exchange). For this lab, the Producer will send messages regarding the current price of a particular stock to the exchange. The Topic Exchange will then route the messages to the appropriate Queues. For instance, a specific Queue may only subscribe to messages regarding tech stocks, while another may only receive messages regarding stock in the healthcare sector. Lastly, the Consumers will read the messages from the subscribed Queue and then acknowledge and print the information.
+In this section, we will create a [Topic Exchange](../Resources/RabbitMQ.md#topic-exchange). For this lab, the Producer will send messages regarding the current price of a particular stock to the exchange. The Topic Exchange will then route the messages to the appropriate Queues. For instance, a specific Queue may only subscribe to messages regarding tech stocks, while another may only receive messages regarding stock in the healthcare sector. Lastly, the Consumers will read the messages from the subscribed Queue and then acknowledge and print the information.
 
 Below are bullet points of the criteria:
 
