@@ -2,7 +2,7 @@
 
 ##  Instructions
 In this section, we will create a [Topic Exchange](../Resources/RabbitMQ.md#topic-exchange). For this lab, the Producer will send messages regarding the current price of a particular stock to the exchange. The Topic Exchange will then route the messages to the appropriate Queues. For instance, a specific Queue may only subscribe to messages regarding tech stocks, while another may only receive messages regarding stock in the healthcare sector. Lastly, the Consumers will read the messages from the subscribed Queue and then acknowledge and print the information.
-* If you are unfamiliar with the concept of a stock please use this resource [Basic Financial Concepts.](../Resources/Finance.md)
+* If you are unfamiliar with the concept of a stock please use this resource: [Basic Financial Concepts.](../Resources/Finance.md)
 
 Below are bullet points of the criteria:
 
