@@ -99,7 +99,6 @@ You can create a repository for each project you start on your personal GitHub a
 
 Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. Note that all of the commands presented below merge into the current branch.
 
-Here's a more [in-depth tutorial](https://www.freecodecamp.org/news/the-definitive-guide-to-git-merge/) on merging.
 
 #### [Merge Conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
 
