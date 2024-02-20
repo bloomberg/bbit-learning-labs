@@ -57,7 +57,7 @@ git pull origin main
 
 #### So why do we need version control?
 
-Think about a video game where you've gotten to level 16. But to beat the game completely, you have to make it to level 20. Should you only be able to finish the game if you complete flawlessly it in one try? Of course not. With a version control system you can **commit** your code, kind of like a checkpoint in a video game, before you actually push it and merge it into your codebase. With version control, you can also roll back to previous commits if you want to change something you did without having to Ctrl+Z 100 times. This is why you should [_commit often_](https://www.atlassian.com/git/tutorials/source-code-management#:~:text=management%20best%20practices-,Commit%20often,-Commits%20are%20cheap) and with detailed commit messages.
+Think about a video game where you've gotten to level 16. But to beat the game completely, you have to make it to level 20. Should you only be able to finish the game if you complete flawlessly it in one try? Of course not. With a version control system you can **commit** your code, kind of like a checkpoint in a video game, before you actually push it and merge it into your codebase. With version control, you can also roll back to previous commits if you want to change something you did without having to Ctrl+Z 100 times. This is why you should _commit often_ and with detailed commit messages.
 
 #### Some terms you should understand about version control:
 
