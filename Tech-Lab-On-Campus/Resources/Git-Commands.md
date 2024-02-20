@@ -86,7 +86,6 @@ You can create a repository for each project you start on your personal GitHub a
 - You can add a README file to your repository to tell other people why your project is useful, what they can do with your project, and how they can use it.
 - If a filed titled `README.md` file in your repository's hidden .github, root, or docs directory, GitHub will recognize and automatically surface your README to repository visitors.
 - If a repository contains more than one README file, then the file shown is chosen from locations in the following order: the .github directory, then the repository's root directory, and finally the docs directory.
-- [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
 
 ## Understanding Branches & How to Collaborate
 
