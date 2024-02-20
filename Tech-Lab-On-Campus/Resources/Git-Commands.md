@@ -93,7 +93,7 @@ You can create a repository for each project you start on your personal GitHub a
 #### [Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
 - Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
-- In order to help your team, make sure you publish your Pull Requests when they're ready with clean code and helpful descriptions. Check out this [article on best practices for pull requests](https://leoneperdigao.medium.com/pull-request-best-practices-fa20f7daeb3c)
+- In order to help your team, make sure you publish your Pull Requests when they're ready with clean code and helpful descriptions```
 
 #### [Merging](https://git-scm.com/docs/git-merge)
 
