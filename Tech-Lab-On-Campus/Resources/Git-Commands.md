@@ -74,19 +74,6 @@ Think about a video game where you've gotten to level 16. But to beat the game c
 
 There are other distributed version control systems that are widely used, for example Mercurial. Instead of typing `git` before commands, you would use `hg` for this version control system. The three most popular [DVCS (Distributed Version Control Systems)](https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs#:~:text=Distributed%20Version%20Control,-In%20the%20past&text=The%20three%20most%20popular%20of,on%20their%20own%20hard%20drive.) are Mercurial, Git, and Bazaar. Here, we will solely focus on Git.
 
-## What is GitHub
-
-GitHub is a cloud-based platform where you can store, share, and work together with others to write code.
-
-Storing your code in a "repository" on GitHub allows you to:
-
-- Showcase or share your work.
-- Track and manage changes to your code over time.
-- Let others review your code, and make suggestions to improve it.
-- Collaborate on a shared project, without worrying that your changes will impact the work of your collaborators before you're ready to integrate them.
-- Collaborative working, one of GitHub’s fundamental features, is made possible by the open-source software, Git, upon which GitHub is built.
-
-There are other code management platforms that rely on git such as GitLab. But GitHub is the most popular, with over 56 million users worldwide.
 
 ## Creating your own Organizations and Repositories
 
