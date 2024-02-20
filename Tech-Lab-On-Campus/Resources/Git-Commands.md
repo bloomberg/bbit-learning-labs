@@ -77,7 +77,7 @@ There are other distributed version control systems that are widely used, for ex
 
 ## Creating your own Organizations and Repositories
 
-You can create a repository for each project you start on your personal GitHub account, [but many suggest creating a separate organization](https://medium.com/@ajlehechka/why-you-should-create-a-github-organization-for-your-side-project-d7c941dbb45b) for projects you plan to collaborate on or make open-source.
+You can create a repository for each project you start on your personal GitHub account, _but many suggest creating a separate organization_ for projects you plan to collaborate on or make open-source.
 
 #### [QuickStart tutorial for Repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories)
 
