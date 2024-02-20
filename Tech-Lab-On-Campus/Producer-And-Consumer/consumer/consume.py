@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 # Copyright 2024 Bloomberg Finance L.P.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,25 +14,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from producer.solution.producer_sol import mqProducer
-from consumer.solution.consumer_sol import mqConsumer
-from concurrent.futures import ThreadPoolExecutor
+import os
+import sys
 
-import time
+from solution.consumer_sol import mqConsumer  # pylint: disable=import-error
 
-pool_worker = ThreadPoolExecutor(max_workers=1)
 
-def startUpConsumer():
-    consumer = mqConsumer("Test Routing Key", "Test Queue Name", "Test Exchange Name")
+def main() -> None:
+    consumer = mqConsumer(binding_key="Tech Lab Key",exchange_name="Tech Lab Exchange",queue_name="Tech Lab Queue")
     consumer.startConsuming()
-
-def runSetup():
-    #Setup consumer in thread
-    pool_worker.submit(startUpConsumer)
-    producer = mqProducer("Test Routing Key", "Test Exchange Name")
-    time.sleep(1)
-    producer.publishOrder("Setup Validation Success! You're ready to start working. Press CMD/Ctrl + C to Exit")
 
 
 if __name__ == "__main__":
-    runSetup()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("Interrupted")
+        try:
+            sys.exit(0)
+        except SystemExit:
+            os._exit(0)

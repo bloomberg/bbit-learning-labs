@@ -17,12 +17,13 @@
 import os
 import sys
 
-from consumer_sol import mqConsumer  # pylint: disable=import-error
+# Update the import to match the producer class file you created if it's different then the default
+from solution.producer_sol import mqProducer  # pylint: disable=import-error
 
 
 def main() -> None:
-    consumer = mqConsumer(binding_key="Routing Key",exchange_name="Exchange Name",queue_name="Queue Name")
-    consumer.startConsuming()
+    producer = mqProducer(routing_key="Tech Lab Key",exchange_name="Tech Lab Exchange")
+    producer.publishOrder("Success! Producer And Consumer Section Complete.")
 
 
 if __name__ == "__main__":
