@@ -1,3 +1,6 @@
+import pika
+import os
+
 class mqConsumerInterface:
     def __init__(self, binding_key: str, exchange_name: str, queue_name: str) -> None:
         # Save parameters to class variables
@@ -10,9 +13,9 @@ class mqConsumerInterface:
     def setupRMQConnection(self) -> None:
         # Set-up Connection to RabbitMQ service
         con_params = pika.URLParameters(os.environ["AMQP_URL"])
-        connection = pika.BlockingConnection(parameters=con_params)
+        self.connection = pika.BlockingConnection(parameters=con_params)
         # Establish Channel
-        self.channel = connection.channel()
+        self.channel = self.connection.channel()
         # Create the exchange if not already present
         if self.exchange_name != None:
             self.exchange = self.channel.exchange_declare(exchange=self.exchange_name)
@@ -32,14 +35,15 @@ class mqConsumerInterface:
         self, channel, method_frame, header_frame, body
     ) -> None:
         # Acknowledge message
-
+        channel.basic_ack(method_frame.delivery_tag, False)
         #Print message
-
+        print(body)
         # Close channel and connection
-        pass
+        channel.close()
+        self.connection.close()
 
     def startConsuming(self) -> None:
         # Print " [*] Waiting for messages. To exit press CTRL+C"
-
+        print("[*] Waiting for messages. To exit press CTRL+C.")
         # Start consuming messages
-        pass
+        self.channel.start_consuming()
