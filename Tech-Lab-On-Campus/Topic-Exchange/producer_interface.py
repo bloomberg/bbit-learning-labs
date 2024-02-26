@@ -12,9 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from stock import Stock  # pylint: disable=import-error
-
-
 class mqProducerInterface:
     def __init__(self, exchange_name: str) -> None:
         # Save parameters to class variables
@@ -32,7 +29,7 @@ class mqProducerInterface:
 
         pass
 
-    def publishOrder(self, sector: str, stock: Stock) -> None:
+    def publishOrder(self, message: str) -> None:
         # Create Appropiate Topic String
 
         # Send serialized message or String

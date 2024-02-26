@@ -11,7 +11,8 @@ Below are bullet points of the criteria:
 - Constructor: Save the two variables needed to instantiate the class.
 - Constructor: Call the setupRMQConnection function.
 - setupRMQConnection Function: Establish connection to the RabbitMQ service.
-- publishOrder:  Publish a simple UTF-8 string message from the parameter. 
+- publishOrder:  Publish a simple UTF-8 string message from the parameter.
+- publishOrder:  Close Channel and Connection.  
 
 ## Testing
 To test your producer class, we'll use Docker to set up a container running RabbitMQ. We'll then create a testing container where you can run the test code provided. To validate the messages are being sent, you'll utilize the RabbitMQ container's management web application.

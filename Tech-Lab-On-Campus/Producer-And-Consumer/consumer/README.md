@@ -13,6 +13,7 @@ Below are bullet points of the criteria:
 - setupRMQConnection Function: Establish connection to the RabbitMQ service, declare a queue and exchange, bind the binding key to the queue on the exchange and finally set up a callback function for receiving messages
 - onMessageCallback: Print the UTF-8 string message and then close the connection.
 - startConsuming:  Consumer should start listening for messages from the queue.
+- Del: Close Connection and Channel.
 
 
 ## Testing
