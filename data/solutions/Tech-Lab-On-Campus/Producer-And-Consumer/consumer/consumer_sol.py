@@ -64,10 +64,6 @@ class mqConsumer(mqConsumerInterface):
         # Print Message
         print(f" [x] Received Message: {body}")
 
-        # Close channel and connection
-        self.m_channel.close()
-        self.m_connection.close()
-
     def startConsuming(self) -> None:
         
         # Print " [*] Waiting for messages. To exit press CTRL+C"
@@ -75,3 +71,8 @@ class mqConsumer(mqConsumerInterface):
 
         # Start consuming messages
         self.m_channel.start_consuming()
+    
+    def __del__(self) -> None:
+        print(f"Closing RMQ connection on destruction")
+        self.m_channel.close()
+        self.m_connection.close()
