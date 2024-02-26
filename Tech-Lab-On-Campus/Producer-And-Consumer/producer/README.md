@@ -7,8 +7,8 @@ Below are bullet points of the criteria:
 - In the `solution` directory, create a file named `producer_sol.py`
 - Write your code in the `producer_sol.py` file
 - Create a class named `mqProducer`
-- Your class should inherit from our mqProducerInterface.
-- Constructor: Save the two variables needed to instantiate the class.
+- Your class should [inherit](../../Resources/Python-Basics.md#creating-an-interface) from our mqProducerInterface.
+- Constructor: [Save the two variables](../../Resources/Python-Basics.md#saving-a-instance-variable-and-calling-the-variable) needed to instantiate the class.
 - Constructor: Call the setupRMQConnection function.
 - setupRMQConnection Function: Establish connection to the RabbitMQ service.
 - publishOrder:  Publish a simple UTF-8 string message from the parameter.

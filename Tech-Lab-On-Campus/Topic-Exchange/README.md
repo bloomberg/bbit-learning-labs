@@ -30,8 +30,8 @@ Below are bullet points of the criteria:
 ## Testing
 In order to verify that this excercise was done correctly we will need to test our service.
 1. Open up three terminals.
-2. In two of the terminals start a consumer service, one should subscribe to tech stocks and the other to health care stocks.
-3. In the third terminal, utilize your producer service to send three messages: first, a tech stock; second, health; and third, a different sector.
+2. In two of the terminals start a consumer service with the consume.py file, one should subscribe to tech stocks and the other to health care stocks.
+3. In the third terminal, utilize your publish.py to send three messages: first, a tech stock; second, health; and third, a different sector.
 4. Verify that the first and second message went to the appropriate queues only and that the third message did not go to any queue.
 
 Common Issues:
