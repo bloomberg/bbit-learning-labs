@@ -9,7 +9,7 @@ Below are bullet points of the criteria:
 - Second ensure that each contributor has been `added as a collaborator to the fork.`
 - One person completes the `producer section.`
 - One person completes the `consumer section.`
-- Each contributor should then `git push` their solutions to the fork.
+- Each contributor should then [git push](../Resources/Git-Commands.md#commands-youll-need-for-today) their solutions to the fork.
 - Lastly, follow the `testing instructions below` to send and recieve a message to complete this section.
 
    

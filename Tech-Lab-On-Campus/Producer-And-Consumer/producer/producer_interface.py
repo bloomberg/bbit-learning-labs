@@ -31,4 +31,9 @@ class mqProducerInterface:
 
     def publishOrder(self, message: str) -> None:
         # Basic Publish to Exchange
+
+        # Close Channel
+
+        # Close Connection
+    
         pass
