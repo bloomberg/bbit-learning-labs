@@ -21,4 +21,4 @@ For example, I could have a portfolio which contains the positions:
 
 **10** shares of **MSFT USD**  and **10** shares of **AAPL USD**
 
-Hypothetically, if a stock of MSFT is worth $50 each and a stock of AAPL is worth $20 each, then the total value of the portfolio above would be $70.
+Hypothetically, if a stock of MSFT is worth $50 each and a stock of AAPL is worth $20 each, then the total value of the portfolio above would be $700.
