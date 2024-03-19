@@ -4,7 +4,7 @@
 from consumer_interface import mqConsumerInterface
 
 class mqConsumer(mqConsumerInterface):
-    def __init__(self, name) -> None:
+    def __init__(self, binding_key: str, exchange_name: str, queue_name: str) -> None:
         #inherit from class mqConsumerInterface:
         self.binding_key = binding_key
         self.exchange_name = exchange_name
@@ -17,7 +17,7 @@ class mqConsumer(mqConsumerInterface):
         self.connection = pika.BlockingConnection(parameters=con_params)
         
         # Establish Channel
-        self.channel = connection.channel()
+        self.channel = self.connection.channel()
         
         self.channel.queue_declare(queue=self.queue_name, durable=True)
 
@@ -25,7 +25,7 @@ class mqConsumer(mqConsumerInterface):
         # Bind Binding Key to Queue on the exchange
         self.channel.queue_bind(
             queue= self.queue_name,
-            routing_key= "Routing Key",
+            routing_key= self.binding_key,
             exchange=self.exchange_name,
         )
         
@@ -41,14 +41,14 @@ class mqConsumer(mqConsumerInterface):
         message = json.loads(JsonMessageObject)
 
     
-    def __del__(self):
-        self.channel.close()
-        self.connection.close()
+   # def __del__(self):
+        #self.channel.close()
+        #self.connection.close()
 
     
         
 
-mqConsumer(mqConsumerInterface)
+#mqConsumer(mqConsumerInterface)
 
 
 #setRMQ = setupRMQConnection()     
