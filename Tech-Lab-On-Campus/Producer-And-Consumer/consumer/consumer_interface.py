@@ -23,7 +23,7 @@ class mqConsumerInterface:
         pass
 
     def setupRMQConnection(self) -> None:
-        # Set-up Connection to RabbitMQ service - test
+        # Set-up Connection to RabbitMQ service
 
         # Establish Channel
 
