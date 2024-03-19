@@ -30,15 +30,15 @@ class mqConsumer(mqConsumerInterface):
         )
         
     # Set-up Callback function for receiving messages
-    def on_message_callback(self, channel, method_frame, header_frame, body):
-        channel.basic_ack(method_frame.delivery_tag, False)
+    #def on_message_callback(self, channel, method_frame, header_frame, body):
+        #self.channel.basic_ack(method_frame.delivery_tag, False)
 
     def startConsuming(self):
         self.channel.start_consuming()
         self.channel.exchange_declare(
-            exchange=self.exchange_name, exchange_type="topic"
+            exchange=self.exchange_name#, exchange_type="topic"
         )
-        message = json.loads(JsonMessageObject)
+        #message = json.loads(JsonMessageObject)
 
     
    # def __del__(self):
