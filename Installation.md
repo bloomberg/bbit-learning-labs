@@ -25,8 +25,11 @@
 ### 5. Create a **Docker image** of the BBIT Lab (This might take some time, so have a coffee :) )
 
 - First, ensure that docker is running and then in your favorite terminal, from the folder **learning_labs**, run the following command to build the docker image:
-  `    docker build . --tag bbitlab
-   `
+
+  ```
+  docker build . --tag bbitlab
+  ```
+
   **We can remove this step if we publish our image to DockerHub**
 
 ### 6. Launch a docker container layer over the docker image of the lab
@@ -34,8 +37,11 @@
 - launch our container and mount the **learning_labs** folder as a volume to access the lab.
 
   ```
-  docker run -p 8888:8888 -v <full path of the folder 'learning_labs'>:/app bbitlab
+  docker run --rm -p 8888:8888 -v <full path of the folder 'learning_labs'>:/app bbitlab
   ```
+
+  > Tip: on _Git Bash_ and _macOS Terminal_, use the `pwd` command to
+  > get the full path of your current directory.
 
 - When the container fully launches, you should have a similar output.
   You should copy the URL _(circled in red)_ and paste it into your favorite web browser to launch Jupyter Lab.
