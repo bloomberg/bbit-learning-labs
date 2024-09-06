@@ -86,4 +86,4 @@ Docker Compose is a tool for defining and running multi-container applications. 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the UI of your web application.
 
 This is an example of how the website should look like after a successful setup:
-![Successful setup](PortfolioManager/your-nextjs-app/Webapp-After-Setup.png)
+![Successful setup](Webapp-After-Setup.png)
