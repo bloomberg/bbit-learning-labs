@@ -83,7 +83,7 @@ Docker Compose is a tool for defining and running multi-container applications. 
 
 3. Your web application should be running. Feel free to open `your-nextjs-app` directory in the text editor/IDE of your choice, where you will begin creating files for your project.
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the UI of your web application.
+4. Open [http://localhost:3001](http://localhost:3001) with your browser to see the UI of your web application. This is the completed version of the application which you will achieve!
 
 This is an example of how the website should look like after a successful setup:
 ![Successful setup](Webapp-After-Setup.png)
