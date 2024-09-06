@@ -42,6 +42,17 @@ services:
       - ./PortfolioManager/your-nextjs-app:/your-nextjs-app
     working_dir: /your-nextjs-app
     command: npm run lab
+  test:
+    image: node:20
+    restart: unless-stopped
+    expose:
+      - 3001
+    ports:
+      - 3001:3001
+    volumes:
+      - ./PortfolioManager/complete-app:complete-app
+    working_dir: /complete-app
+    command: npm run lab
 volumes:
   db_data:
   wp_data:
