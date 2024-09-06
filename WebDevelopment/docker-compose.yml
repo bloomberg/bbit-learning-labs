@@ -1,6 +1,6 @@
 services:
   db:
-    image: artprod.dev.bloomberg.com/wmkt/mariadb-generic
+    image: mariadb:10.6.4-focal
     command: "--default-authentication-plugin=mysql_native_password"
     volumes:
       - db_data:/var/lib/mysql
@@ -16,7 +16,7 @@ services:
     ports:
       - 3306:3306
   wordpress:
-    image: artprod.dev.bloomberg.com/wmkt/wordpress-generic:latest
+    image: wordpress:latest
     volumes:
       - wp_data:/var/www/html
       - ./dependency/plugins:/var/www/html/wp-content/plugins
@@ -32,7 +32,7 @@ services:
       - WORDPRESS_DB_PASSWORD=wordpress
       - WORDPRESS_DB_NAME=wordpress
   node:
-    image: artprod.dev.bloomberg.com/node:20-ubuntu20
+    image: node:20
     restart: unless-stopped
     expose:
       - 3000
@@ -41,17 +41,6 @@ services:
     volumes:
       - ./PortfolioManager/your-nextjs-app:/your-nextjs-app
     working_dir: /your-nextjs-app
-    command: npm run lab
-  node-test:
-    image: artprod.dev.bloomberg.com/node:20-ubuntu20
-    restart: unless-stopped
-    expose:
-      - 3000
-    ports:
-      - 3000:3000
-    volumes:
-      - ./PortfolioManager/complete-app:/complete-app
-    working_dir: /complete-app
     command: npm run lab
 volumes:
   db_data:
