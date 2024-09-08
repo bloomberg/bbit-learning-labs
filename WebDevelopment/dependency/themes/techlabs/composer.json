@@ -1,0 +1,23 @@
+{
+	"name": "wmkt/bloomberg-tech-labs-nextjs",
+	"type": "wordpress-plugin",
+	"description": "Bloomberg Tech Labs - NextJS Version",
+	"license": "GPL-2.0-or-later",
+	"config": {
+	  "sort-packages": true,
+	  "secure-http": false,
+	  "allow-plugins": {
+		"composer/installers": true
+	  }
+	},
+	"autoload": {
+	  "classmap": [
+		"includes/"
+	  ]
+	},
+	"autoload-dev": {
+	  "psr-4": {
+		"Bloomberg\\TechLabs\\NextJS\\": ""
+	  }
+	}
+}
