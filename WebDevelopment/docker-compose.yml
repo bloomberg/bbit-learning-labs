@@ -33,7 +33,6 @@ services:
       - WORDPRESS_DB_NAME=wordpress
   node:
     image: node:20
-    restart: unless-stopped
     expose:
       - 3000
     ports:
@@ -48,9 +47,9 @@ services:
     expose:
       - 3001
     ports:
-      - 3001:3001
+      - 3001:3000
     volumes:
-      - ./PortfolioManager/complete-app:complete-app
+      - ./PortfolioManager/complete-app:/complete-app
     working_dir: /complete-app
     command: npm run lab
 volumes:
