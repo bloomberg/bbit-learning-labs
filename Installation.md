@@ -3,14 +3,14 @@
 ### 1. Installing **Git** (Windows laptop only. Mac OS has Git already installed)
 - Navigate to: https://gitforwindows.org/
 - Download & install the latest version of Git for Windows.
-- This includes `git` as well as some tools like `git bash`
+- This includes **git** as well as some tools like **git bash**
 
 ### 2. Installing **Docker**
 - Navigate to: https://docs.docker.com/engine/install/
 - Download & install the right docker engine for your operating system.
 
 ### 3. Install your Favorite Terminal (You can skip this step if you already have one installed on your machine)
-- **Git Bash** for example, works well for this if you already installed in step 1
+- **Git Bash** for example, works well for this if you already installed it in step 1
 
 ### 4. Fork the GitHub repository and clone it locally.
 - In your favorite terminal, clone the repository
