@@ -1,0 +1,33 @@
+.hndle.ui-sortable-handle {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.bbg-block-row {
+	display: flex;
+}
+.bbg-block-column-half {
+	width: 50%;
+}
+.bbg-block-column-half .poststuff {
+	padding-right: 15px;
+}
+.bbg-block-column-half + .bbg-block-column-half .poststuff {
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+.form-input {
+	display: block;
+	width: 100%;
+}
+.form-input + .form-input {
+	padding-top: 15px;
+}
+.form-input label {
+	display: block;
+	padding-bottom: 5px;
+}
+.form-input input {
+	width: 100%;
+	max-width: 50%;
+}

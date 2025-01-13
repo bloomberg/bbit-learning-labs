@@ -1,0 +1,57 @@
+services:
+  db:
+    image: mariadb:10.6.4-focal
+    command: "--default-authentication-plugin=mysql_native_password"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./dependency/init:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+    environment:
+      - MYSQL_ROOT_PASSWORD=somewordpress
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_USER=wordpress
+      - MYSQL_PASSWORD=wordpress
+    expose:
+      - 3306
+    ports:
+      - 3306:3306
+  wordpress:
+    image: wordpress:latest
+    volumes:
+      - wp_data:/var/www/html
+      - ./dependency/plugins:/var/www/html/wp-content/plugins
+      - ./dependency/themes:/var/www/html/wp-content/themes
+    expose:
+      - 80
+    ports:
+      - 80:80
+    restart: unless-stopped
+    environment:
+      - WORDPRESS_DB_HOST=db
+      - WORDPRESS_DB_USER=wordpress
+      - WORDPRESS_DB_PASSWORD=wordpress
+      - WORDPRESS_DB_NAME=wordpress
+  node:
+    image: node:20
+    expose:
+      - 3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ./PortfolioManager/your-nextjs-app:/your-nextjs-app
+    working_dir: /your-nextjs-app
+    command: npm run lab
+  test:
+    image: node:20
+    restart: unless-stopped
+    expose:
+      - 3001
+    ports:
+      - 3001:3000
+    volumes:
+      - ./PortfolioManager/complete-app:/complete-app
+    working_dir: /complete-app
+    command: npm run lab
+volumes:
+  db_data:
+  wp_data:
