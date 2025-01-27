@@ -36,6 +36,8 @@ For this project, we're going to leverage the use of Docker to create a helpful 
     ```sh
     git clone [SSH KEY]
     ```
+NOTE: If you are using github for the first time and have not setup ssh key, refer to the documentation on [connecting to github with ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) and setup your ssh key before running the command `git clone`.
+
 
 3. Navigate to the 'Tech-Lab-On-Campus' folder.
     ```sh

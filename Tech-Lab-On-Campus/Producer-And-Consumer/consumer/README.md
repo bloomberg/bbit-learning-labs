@@ -8,7 +8,7 @@ Below are bullet points of the criteria:
 - Write your code in the `consumer_sol.py` file
 - Create a class named `mqConsumer`
 - Your class should [inherit](../../Resources/Python-Basics.md#creating-an-interface) from our mqConsumerInterface.
-- Constructor:[Save the two variables](../../Resources/Python-Basics.md#saving-a-instance-variable-and-calling-the-variable) needed to instantiate the class.
+- Constructor:[Save the three variables](../../Resources/Python-Basics.md#saving-a-instance-variable-and-calling-the-variable) needed to instantiate the class.
 - Constructor: Call the setupRMQConnection function.
 - setupRMQConnection Function: Establish connection to the RabbitMQ service, declare a queue and exchange, bind the binding key to the queue on the exchange and finally set up a callback function for receiving messages
 - onMessageCallback: Print the UTF-8 string message and then close the connection.

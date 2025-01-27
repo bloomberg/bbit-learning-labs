@@ -57,7 +57,7 @@ git pull origin main
 
 #### So why do we need version control?
 
-Think about a video game where you've gotten to level 16. But to beat the game completely, you have to make it to level 20. Should you only be able to finish the game if you complete flawlessly it in one try? Of course not. With a version control system you can **commit** your code, kind of like a checkpoint in a video game, before you actually push it and merge it into your codebase. With version control, you can also roll back to previous commits if you want to change something you did without having to Ctrl+Z 100 times. This is why you should [_commit often_](https://www.atlassian.com/git/tutorials/source-code-management#:~:text=management%20best%20practices-,Commit%20often,-Commits%20are%20cheap) and with detailed commit messages.
+Think about a video game where you've gotten to level 16. But to beat the game completely, you have to make it to level 20. Should you only be able to finish the game if you complete flawlessly it in one try? Of course not. With a version control system you can **commit** your code, kind of like a checkpoint in a video game, before you actually push it and merge it into your codebase. With version control, you can also roll back to previous commits if you want to change something you did without having to Ctrl+Z 100 times. This is why you should _commit often_ and with detailed commit messages.
 
 #### Some terms you should understand about version control:
 
@@ -72,25 +72,12 @@ Think about a video game where you've gotten to level 16. But to beat the game c
 - **Branch** - Branches let you create alternate versions of your project. When you branch you can work on new features and try new ideas without messing with your main work. Consider this – your main work may have many names and, like a tree trunk, it’s commonly called the “master,” “master branch,” or “baseline.” The trunk or master is where your team keeps its primary project development and if it’s messed with, your team will suffer. Thus, if you plan to work on something that will take a while and may break your build, be sure to branch so you don't interfere with the work of others on your team.
 - [**Open Source**](https://opensource.com/resources/what-open-source) - The term open source refers to something people can modify and share because its design is publicly accessible.
 
-There are other distributed version control systems that are widely used. For example, Facebook uses Mercurial. Instead of typing `git` before commands, you would use `hg` for this version control system. The three most popular [DVCS (Distributed Version Control Systems)](https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs#:~:text=Distributed%20Version%20Control,-In%20the%20past&text=The%20three%20most%20popular%20of,on%20their%20own%20hard%20drive.) are Mercurial, Git, and Bazaar. Here, we will solely focus on Git.
+There are other distributed version control systems that are widely used, for example Mercurial. Instead of typing `git` before commands, you would use `hg` for this version control system. The three most popular DVCS (Distributed Version Control Systems) are Mercurial, Git, and Bazaar. Here, we will solely focus on Git.
 
-## What is GitHub
-
-GitHub is a cloud-based platform where you can store, share, and work together with others to write code.
-
-Storing your code in a "repository" on GitHub allows you to:
-
-- Showcase or share your work.
-- Track and manage changes to your code over time.
-- Let others review your code, and make suggestions to improve it.
-- Collaborate on a shared project, without worrying that your changes will impact the work of your collaborators before you're ready to integrate them.
-- Collaborative working, one of GitHub’s fundamental features, is made possible by the open-source software, Git, upon which GitHub is built.
-
-There are other code management platforms that rely on git such as GitLab. But GitHub is the most popular, with over 56 million users worldwide.
 
 ## Creating your own Organizations and Repositories
 
-You can create a repository for each project you start on your personal GitHub account, [but many suggest creating a separate organization](https://medium.com/@ajlehechka/why-you-should-create-a-github-organization-for-your-side-project-d7c941dbb45b) for projects you plan to collaborate on or make open-source.
+You can create a repository for each project you start on your personal GitHub account, _but many suggest creating a separate organization_ for projects you plan to collaborate on or make open-source.
 
 #### [QuickStart tutorial for Repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories)
 
@@ -99,20 +86,18 @@ You can create a repository for each project you start on your personal GitHub a
 - You can add a README file to your repository to tell other people why your project is useful, what they can do with your project, and how they can use it.
 - If a filed titled `README.md` file in your repository's hidden .github, root, or docs directory, GitHub will recognize and automatically surface your README to repository visitors.
 - If a repository contains more than one README file, then the file shown is chosen from locations in the following order: the .github directory, then the repository's root directory, and finally the docs directory.
-- [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
 
 ## Understanding Branches & How to Collaborate
 
 #### [Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
 - Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
-- In order to help your team, make sure you publish your Pull Requests when they're ready with clean code and helpful descriptions. Check out this [article on best practices for pull requests](https://leoneperdigao.medium.com/pull-request-best-practices-fa20f7daeb3c)
+- In order to help your team, make sure you publish your Pull Requests when they're ready with clean code and helpful descriptions```
 
-#### [Merging](https://www.atlassian.com/git/tutorials/using-branches/git-merge#:~:text=Merging%20is%20Git's%20way%20of,merge%20into%20the%20current%20branch.)
+#### [Merging](https://git-scm.com/docs/git-merge)
 
 Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. Note that all of the commands presented below merge into the current branch.
 
-Here's a more [in-depth tutorial](https://www.freecodecamp.org/news/the-definitive-guide-to-git-merge/) on merging.
 
 #### [Merge Conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
 
