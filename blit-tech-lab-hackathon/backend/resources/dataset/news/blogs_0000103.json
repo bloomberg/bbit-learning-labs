@@ -1,0 +1,110 @@
+{
+  "organizations": [],
+  "uuid": "cf49b3f3e071c2c29fdab1881705ffb2ead1ce1b",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 30
+      },
+      "facebook": {
+        "likes": 85,
+        "shares": 85,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/02/104924401-GettyImages-657279284.1910x1000.jpg",
+    "site_section": "http://www.cnbc.com/id/19746125/device/rss/rss.xml#",
+    "section_title": "Top News and Analysis (pro)",
+    "url": "https://www.cnbc.com/2018/01/02/internet-giants-fuel-warehouse-demand-as-industrial-land-prices-surge.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "Prices of land for warehouses are skyrocketing across the US",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-02T22:50:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "cf49b3f3e071c2c29fdab1881705ffb2ead1ce1b"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/02/internet-giants-fuel-warehouse-demand-as-industrial-land-prices-surge.html",
+  "ord_in_thread": 0,
+  "title": "Prices of land for warehouses are skyrocketing across the US",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "john tlumacki",
+        "sentiment": "negative"
+      }
+    ],
+    "locations": [
+      {
+        "name": "us",
+        "sentiment": "none"
+      },
+      {
+        "name": "u.s.",
+        "sentiment": "none"
+      },
+      {
+        "name": "fall river",
+        "sentiment": "none"
+      },
+      {
+        "name": "ma",
+        "sentiment": "none"
+      },
+      {
+        "name": "atlanta",
+        "sentiment": "none"
+      },
+      {
+        "name": "amazon",
+        "sentiment": "none"
+      },
+      {
+        "name": "houston",
+        "sentiment": "none"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "boston globe",
+        "sentiment": "negative"
+      },
+      {
+        "name": "walmart",
+        "sentiment": "none"
+      },
+      {
+        "name": "cbre",
+        "sentiment": "none"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "Land fit for future fulfillment centers for the likes of Amazon and Walmart saw huge spikes in prices last year, according to real estate services firm CBRE.\nIn a trend largely stemming from the growth of e-commerce players across the U.S., some plots of land now cost twice the amount they did a year ago, the group found. This is especially true in major markets, including Atlanta and Houston.\nIn surveying 10 U.S. markets, CBRE found the average price for \"large industrial parcels\" (50 to 100 acres) now sits at more than $100,000 per acre, up from about $50,000 a year ago.\nIndustrial land plots of five to 10 acres, which typically house infill distribution centers for completing \"last-mile\" deliveries, watched their prices soar to more than $250,000 per acre by the end of 2017, up from roughly $200,000 a year ago, according to CBRE. Located in more bustling metropolitan settings, these warehouses must help retailers serve consumers closer to their homes.\nTo be sure, industry experts say that despite an uptick in construction of late, there's still a long way to go before supply aligns with demand.\nshow chapters America is over-malled, but not enough warehouses to support Amazon      2:20 PM ET Fri, 23 June 2017 | 00:52 \"Escalating land prices are a big reason why new supply of U.S. warehouses and distribution centers hasn't kept pace with strong demand in recent years,\" David Egan, the global head of CBRE's Industrial & Logistics Research division, said in a statement.\n\"This situation won't go away any time soon, because the markets where distribution centers are most in demand — typically near or in densely populated city centers — have scant available land for industrial uses,\" Egan added.\nAccording to CBRE's annual research, the most active warehouse construction markets today include California's Inland Empire, northern New Jersey, Chicago and Las Vegas.\nAverage industrial land prices in Inland Empire mushroomed 35 percent in 2017, the group found. Prices in northern New Jersey and Las Vegas jumped 17 percent, while prices in Chicago were up about 16 percent.\nSee a complete list of prices here. \nWATCH: The e-commerce effect on warehouses show chapters Prologis CEO on the e-commerce effect on warehouses      12:02 PM ET Wed, 18 Oct 2017 | 03:46",
+  "external_links": [],
+  "published": "2018-01-02T22:50:00.000+02:00",
+  "crawled": "2018-01-03T00:02:26.000+02:00",
+  "highlightTitle": ""
+}

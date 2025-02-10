@@ -1,0 +1,81 @@
+{
+  "organizations": [],
+  "uuid": "9f11f5352011e019f90f9cb3d1f5ffaf58e19202",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 9
+      },
+      "facebook": {
+        "likes": 22,
+        "shares": 22,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/02/104924478-GettyImages-515617976.1910x1000.jpg",
+    "site_section": "http://www.cnbc.com/id/19746125/device/rss/rss.xml#",
+    "section_title": "Top News and Analysis (pro)",
+    "url": "https://www.cnbc.com/2018/01/02/expect-more-incentives-on-suvs-and-trucks-in-2018.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "Expect more incentives on SUVs and trucks in 2018",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-02T23:53:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "9f11f5352011e019f90f9cb3d1f5ffaf58e19202"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/02/expect-more-incentives-on-suvs-and-trucks-in-2018.html",
+  "ord_in_thread": 0,
+  "title": "Expect more incentives on SUVs and trucks in 2018",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "efraim levy",
+        "sentiment": "none"
+      },
+      {
+        "name": "levy",
+        "sentiment": "none"
+      }
+    ],
+    "locations": [],
+    "organizations": [
+      {
+        "name": "cnbc",
+        "sentiment": "none"
+      },
+      {
+        "name": "cfra",
+        "sentiment": "none"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "There is a decent chance that long-desired pickup or crossover may be on sale this year, says one industry analyst.\nAutomakers will push more incentives for trucks and SUVs in 2018, rather than slower selling and less profitable sedans and compact vehicles, said CFRA analyst Efraim Levy CNBC's \"Power Lunch\" on Tuesday.\nThat is partly because companies can use the higher margins earned on truck and SUV sales to offset the costs of the discounts.\n\"The pricing is going to give them enough margin that it is worth it, and they want to battle more in trucks and SUVs and crossover utility vehicles than in cars,\" Levy said.\nThey can also take the money from those sales and plow it into research for new mobility technologies.\n\"The industry is really selling more of the profitable high-margin vehicles and those vehicles are helping to pay for those emerging electric and connected and autonomous vehicle technologies that the consumer is looking for a few years down the line,\" said Center for Automotive Research analyst Bernard Swiecki.\nU.S. car buyers have shown a clear preference for crossovers, utility vehicles and pickups for quite some time now, and some in the industry, such as Fiat-Chrysler CEO Sergio Marchionne, have said the shift may be permanent.\nThe shift in tastes has been reflected in production slowdowns or changes at many U.S. auto plants. Ford cut U.S. car production almost 15 percent in 2017, General Motors cut it almost 19 percent and Fiat-Chrysler cut it by 26 percent.",
+  "external_links": [],
+  "published": "2018-01-02T23:53:00.000+02:00",
+  "crawled": "2018-01-03T00:02:21.023+02:00",
+  "highlightTitle": ""
+}

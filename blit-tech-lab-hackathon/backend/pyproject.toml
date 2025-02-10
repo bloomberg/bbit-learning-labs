@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "app"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "flask",
+    "types-flask",
+    "redis",
+    "hiredis",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "mypy",
+]
+
+[tool.mypy]
+python_version = "3.12"
+files = ["app"]
+mypy_path = "app"
+explicit_package_bases = true
+namespace_packages = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+module = ["docker.*"]
+ignore_missing_imports = true
+
+[tool.ruff]
+src = ["app"]
+target-version = "py312"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "D", "I"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"

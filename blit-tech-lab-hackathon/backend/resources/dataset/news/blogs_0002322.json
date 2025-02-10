@@ -1,0 +1,68 @@
+{
+  "organizations": [],
+  "uuid": "aa68c00a93e913ccb0a22f092c45ae93d1d766d3",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 1
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 74
+      },
+      "facebook": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/02/104924616-GettyImages-548554519.1910x1000.jpg",
+    "site_section": "http://www.cnbc.com/id/19746125/device/rss/rss.xml#",
+    "section_title": "Top News and Analysis (pro)",
+    "url": "https://www.cnbc.com/2018/01/02/how-to-buy-ripple.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "How to buy ripple, one of the hottest bitcoin competitors",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-02T23:47:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "aa68c00a93e913ccb0a22f092c45ae93d1d766d3"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/02/how-to-buy-ripple.html",
+  "ord_in_thread": 0,
+  "title": "How to buy ripple, one of the hottest bitcoin competitors",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "helena",
+        "sentiment": "none"
+      }
+    ],
+    "locations": [],
+    "organizations": []
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "How to buy ripple, one of the hottest bitcoin competitors SHARES Published 16 Hours Ago Updated 14 Hours Ago Ripple is one of the hottest new cryptocurrencies and it only costs a bit over $2 per coin. It's a bit harder to buy than bitcoin, however, since it's not available in popular apps such as Coinbase. We'll walk you through how to buy some, by first buying ethereum and then using that to buy ripple on an exchange called Bitsane. Frank and Helena | Cultura | Getty Ripple coin \nIf you thought bitcoin was hot, maybe you should learn about ripple. It's another crytocurrency that's been rocketing in popularity lately. \nWhile it was trading at around $0.20 a few months ago, it's now worth more than $2.25 per coin. Ripple is a little different than many other popular cryptocurrencies because it was created by a private, for-profit company that is still the biggest individual owner of the currency. \nBut ripple isn't as easy to buy as bitcoin or other popular cryptocurrencies, since it isn't available in popular apps such as Coinbase. \nThat means you need to jump through a few hoops to buy it. I tried several methods and think I've come up with the easiest: Create an account with a Ripple exchange \nOnly some of ripple's recommended exchanges include support for buying Ripple with the U.S. dollar, which would be the easiest way. Unfortunately, after trying several and running into technical issues or login problems, I settled on an exchange called Bitsane . \nSetting up an account is easy, and the main page has all sorts of information on current exchange prices for trading between various cryptocurrencies. It also lets you send and receive currency from other apps, such as Coinbase, which we'll get to in a moment. Buy bitcoin or ether \nNow you'll need to buy another cryptocurrency: either bitcoin or ether (the cryptocurrency associated with the Ethereum blockchain). \nIt's annoying that you need to do this extra step, but unfortunately it's the easiest way to move forward. \nI used Coinbase to buy ether and bitcoin. It's easy to use and you can buy it using the U.S. dollar, either through a linked bank account or debit card. Follow our guide on how to buy bitcoin and ethereum for this step . \nIn this case, I'm buying $200 worth of ether. Move your ether to Bitsane \nNext, you're going to move the ether you own in Coinbase over to the Bitsane platform so you can use it to buy ripple. I know it sounds complicated, but it isn't. \nDo this: Click \"Balances\" on the top of the Bitsane page. On the \"Ethereum\" line, select \"Deposit.\" The page will generate a special address. Copy it. Open Coinbase on your phone or computer. Tap Accounts Tap the \"Send\" icon on the top right. It looks like a paper airplane. Choose how much you want to send. We'll do $100 worth of ether. Enter the address you copied from Bitsane. Click Send. You'll pay a small fee -- I paid $0.36 -- and it should arrive in your Bitsane account within 30 minutes. Buy ripple using ether \nNow that your ether is in your Bitsane account, you can use it to buy ripple. On the top of the page, select the XRP/ETH exchange. This allows you to buy ripple using ether, and shows you the buy orders (bids), sell orders (asks), and current trades. Choose how much you want to buy. Under order type, select \"market\" and then choose your order size (how many ripple coins you want to buy.) Since I have 0.11712345 ether, I can buy 46 Ripple coins, which is about $2.20 a pop give or take a few cents. View your ripple \nYou can see how much ripple you now own under balances. Here we can see I ended up with about 45.88 full ripple coins. \nNow, since I can't really spend ripple anywhere, I can just sit on it and see what happens. As with most cryptocurrencies, you're taking a bet here on whether the value is going to increase or decrease. But unlike bitcoin, you can actually buy several of these at once without spending too much money. WATCH: Ripple's XRP just soared more than 30 percent show chapters ",
+  "external_links": [],
+  "published": "2018-01-02T23:47:00.000+02:00",
+  "crawled": "2018-01-03T01:06:27.003+02:00",
+  "highlightTitle": ""
+}
