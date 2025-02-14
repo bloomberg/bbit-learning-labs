@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Redis Basics - Bloomberg Tech Lab</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Redis Basics";
+        var mkdocs_page_input_path = "resources/redis-basics.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Bloomberg Tech Lab
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../backend/">Backend</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../frontend/">Frontend</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../api-question-prompt/">Interview Question Prompt</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Resources</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../resources/">Overview</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Redis Basics</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#key-features">Key Features</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#core-concepts">Core Concepts</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-key-value-store">1. Key-Value Store</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-data-types">2. Data Types</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-persistence">3. Persistence</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4-pubsub">4. Pub/Sub</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#advantages">Advantages</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#basic-commands">Basic Commands</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#use-cases">Use Cases</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../git-basics/">Git Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../react-basics/">React Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../python-basics/">Python Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../docker-basics/">Docker Basics</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Bloomberg Tech Lab</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Resources</li>
+      <li class="breadcrumb-item active">Redis Basics</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="redis-basics">Redis Basics</h1>
+<p>Redis (Remote Dictionary Server) is an open-source, in-memory key-value store widely used for caching, real-time analytics, message brokering, and more. It is designed for high performance and flexibility with support for various data structures.</p>
+<h2 id="key-features">Key Features</h2>
+<ol>
+<li><strong>In-Memory Storage</strong>: All data resides in memory for fast read/write operations.</li>
+<li><strong>Data Persistence</strong>: Supports saving data to disk using snapshots or append-only files.</li>
+<li><strong>Rich Data Structures</strong>: Offers multiple data types like strings, hashes, lists, sets, and sorted sets.</li>
+<li><strong>Pub/Sub Messaging</strong>: Enables message broadcasting and subscribing for real-time applications.</li>
+<li><strong>Replication and Clustering</strong>: Supports master-slave replication and horizontal scaling with clustering.</li>
+</ol>
+<h2 id="core-concepts">Core Concepts</h2>
+<h3 id="1-key-value-store">1. Key-Value Store</h3>
+<p>Redis stores all data as key-value pairs.</p>
+<p>Example:</p>
+<pre><code class="language-bash">SET mykey &quot;Hello, Redis!&quot;
+GET mykey
+</code></pre>
+<h3 id="2-data-types">2. Data Types</h3>
+<p><em>Strings</em>: Basic key-value storage.</p>
+<pre><code>SET name &quot;Redis&quot;
+GET name
+</code></pre>
+<p><em>Lists</em>: Ordered collections of strings.</p>
+<pre><code>LPUSH mylist &quot;item1&quot;
+LPUSH mylist &quot;item2&quot;
+LRANGE mylist 0 -1
+</code></pre>
+<p><em>Hashes</em>: Key-value pairs within a key.</p>
+<pre><code>HSET user name &quot;Alice&quot;
+HSET user age 25
+HGETALL user
+</code></pre>
+<p><em>Sets</em>: Unordered collections of unique items.</p>
+<pre><code>SADD myset &quot;item1&quot;
+SADD myset &quot;item2&quot;
+SMEMBERS myset
+</code></pre>
+<p><em>Sorted</em> <em>Sets</em>: Items ordered by scores.</p>
+<pre><code>ZADD leaderboard 100 &quot;Alice&quot;
+ZADD leaderboard 200 &quot;Bob&quot;
+ZRANGE leaderboard 0 -1 WITHSCORES
+</code></pre>
+<h3 id="3-persistence">3. Persistence</h3>
+<p>Redis provides two persistence mechanisms:
+* RDB Snapshots: Periodic snapshots of the dataset.
+* AOF (Append-Only File): Logs every write operation for durability.</p>
+<h3 id="4-pubsub">4. Pub/Sub</h3>
+<p>Allows message broadcasting to subscribers.</p>
+<pre><code>SUBSCRIBE channel
+PUBLISH channel &quot;Hello, Subscribers!&quot;
+</code></pre>
+<h4 id="advantages">Advantages</h4>
+<ul>
+<li>Extremely fast with low latency.</li>
+<li>Simple and flexible API.</li>
+<li>Rich ecosystem with many client libraries.</li>
+<li>Built-in support for high availability.</li>
+</ul>
+<h3 id="basic-commands">Basic Commands</h3>
+<p>Run the Redis CLI:</p>
+<pre><code>redis-cli
+</code></pre>
+<p>Try basic operations:</p>
+<pre><code>SET key &quot;value&quot;
+GET key
+</code></pre>
+<h2 id="use-cases">Use Cases</h2>
+<ol>
+<li>Caching: Store frequently accessed data for performance optimization.</li>
+<li>Session Management: Manage user sessions in web applications.</li>
+<li>Leaderboards: Use sorted sets to track scores.</li>
+<li>Real-Time Analytics: Process and analyze data streams in real-time.</li>
+<li>Message Queues: Use lists or pub/sub for task queues and messaging.</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../resources/" class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../git-basics/" class="btn btn-neutral float-right" title="Git Basics">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../resources/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../git-basics/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

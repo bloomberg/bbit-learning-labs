@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>React Basics - Bloomberg Tech Lab</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "React Basics";
+        var mkdocs_page_input_path = "resources/react-basics.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Bloomberg Tech Lab
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../backend/">Backend</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../frontend/">Frontend</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../api-question-prompt/">Interview Question Prompt</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Resources</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../resources/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../redis-basics/">Redis Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../git-basics/">Git Basics</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">React Basics</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#key-features">Key Features</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#core-concepts">Core Concepts</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-components">1. Components</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-jsx">2. JSX</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-props">3. Props</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4-state">4. State</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#5-lifecycle-methods">5. Lifecycle Methods</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#advantages">Advantages</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#basic-project-structure">Basic Project Structure</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#example-application">Example Application</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#use-cases">Use Cases</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../python-basics/">Python Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../docker-basics/">Docker Basics</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Bloomberg Tech Lab</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Resources</li>
+      <li class="breadcrumb-item active">React Basics</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="react-basics">React Basics</h1>
+<p>React is a popular JavaScript library for building user interfaces. Developed by Facebook, it allows developers to create reusable UI components and manage application state efficiently.</p>
+<h2 id="key-features">Key Features</h2>
+<ol>
+<li><strong>Component-Based Architecture</strong>: Build reusable, isolated pieces of UI.</li>
+<li><strong>Virtual DOM</strong>: Efficiently updates the DOM by calculating differences between updates.</li>
+<li><strong>Unidirectional Data Flow</strong>: Simplifies data management by ensuring data flows in one direction.</li>
+<li><strong>JSX Syntax</strong>: Combines JavaScript with HTML-like syntax for building UI components.</li>
+</ol>
+<h2 id="core-concepts">Core Concepts</h2>
+<h3 id="1-components">1. Components</h3>
+<p>Components are the building blocks of a React application. They can be:
+- <strong>Functional Components</strong>: Defined as JavaScript functions.
+- <strong>Class Components</strong>: Defined as ES6 classes.</p>
+<p>Example of a Functional Component:</p>
+<pre><code class="language-jsx">function Greeting() {
+  return &lt;h1&gt;Hello, React!&lt;/h1&gt;;
+}
+
+export default Greeting;
+</code></pre>
+<h3 id="2-jsx">2. JSX</h3>
+<p>JSX (JavaScript XML) allows you to write HTML-like syntax in JavaScript.</p>
+<p>Example:</p>
+<pre><code class="language-jsx">const element = &lt;h1&gt;Welcome to React!&lt;/h1&gt;;
+</code></pre>
+<h3 id="3-props">3. Props</h3>
+<p>Props (short for properties) are used to pass data from parent to child components.</p>
+<p>Example:</p>
+<pre><code class="language-jsx">function Welcome(props) {
+  return &lt;h1&gt;Hello, {props.name}!&lt;/h1&gt;;
+}
+
+export default Welcome;
+</code></pre>
+<h3 id="4-state">4. State</h3>
+<p>State is used to manage dynamic data within a component.</p>
+<p>Example:</p>
+<pre><code class="language-jsx">import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;Count: {count}&lt;/p&gt;
+      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;Increment&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default Counter;
+</code></pre>
+<h3 id="5-lifecycle-methods">5. Lifecycle Methods</h3>
+<p>Class components use lifecycle methods to manage behavior during mounting, updating, and unmounting phases.</p>
+<p>Key methods:
+* <code>componentDidMount</code>
+* <code>componentDidUpdate</code>
+* <code>componentWillUnmount</code></p>
+<p>Example:</p>
+<pre><code>class App extends React.Component {
+  componentDidMount() {
+    console.log('Component Mounted');
+  }
+
+  render() {
+    return &lt;h1&gt;React Lifecycle&lt;/h1&gt;;
+  }
+}
+</code></pre>
+<h2 id="advantages">Advantages</h2>
+<ul>
+<li>Reusable Components: Break UI into reusable and modular pieces.</li>
+<li>Efficient Rendering: The Virtual DOM minimizes updates to the actual DOM.</li>
+<li>Strong Ecosystem: Includes tools like React Router and state management libraries like Redux.</li>
+</ul>
+<h2 id="basic-project-structure">Basic Project Structure</h2>
+<ul>
+<li><code>src</code>: Contains application code.</li>
+<li><code>public</code>: Static assets like images or HTML.</li>
+</ul>
+<h2 id="example-application">Example Application</h2>
+<pre><code class="language-jsx">import React from 'react';
+
+function App() {
+  const name = 'React';
+
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;Welcome to {name}!&lt;/h1&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default App;
+</code></pre>
+<p>Run the application:</p>
+<pre><code>npm start
+</code></pre>
+<h2 id="use-cases">Use Cases</h2>
+<ol>
+<li>Single Page Applications (SPAs): Build interactive and dynamic web apps.</li>
+<li>Reusable Components: Shareable components for UI consistency.</li>
+<li>Interactive UIs: Handle user input and update views in real-time.</li>
+<li>Mobile Development: Extend with React Native for mobile apps.</li>
+</ol>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../git-basics/" class="btn btn-neutral float-left" title="Git Basics"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../python-basics/" class="btn btn-neutral float-right" title="Python Basics">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../git-basics/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../python-basics/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

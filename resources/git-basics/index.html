@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Git Basics - Bloomberg Tech Lab</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Git Basics";
+        var mkdocs_page_input_path = "resources/git-basics.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Bloomberg Tech Lab
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../backend/">Backend</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../frontend/">Frontend</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../api-question-prompt/">Interview Question Prompt</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Resources</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../resources/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../redis-basics/">Redis Basics</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Git Basics</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#what-is-git">What is Git?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#commands-youll-need-for-today">Commands You'll Need For Today</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#check-status-of-changes">Check status of changes</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#upload-your-changes-step-1-add-files-to-be-tracked">Upload Your Changes Step 1: Add Files to be Tracked</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#upload-your-changes-step-2-save-changes-in-a-commit">Upload Your Changes Step 2: Save Changes in a Commit</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#upload-your-changes-step-3-push-committed-changes-to-remote-repository">Upload Your Changes Step 3: Push Committed Changes to Remote Repository</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#get-changes-from-originmain-to-current-branch">Get changes from origin/main to current branch</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../react-basics/">React Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../python-basics/">Python Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../docker-basics/">Docker Basics</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Bloomberg Tech Lab</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Resources</li>
+      <li class="breadcrumb-item active">Git Basics</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="understanding-git-github">Understanding Git &amp; Github</h1>
+<h2 id="what-is-git">What is Git?</h2>
+<p>Git is a distributed version control system that helps developers collaborate on projects of any scale. This allows developers to bring a repo full of code down to their workstations, perform their work items, and then put it back into a central server.</p>
+<h2 id="commands-youll-need-for-today">Commands You'll Need For Today</h2>
+<p><em># indicates a comment in bash</em></p>
+<h3 id="check-status-of-changes">Check status of changes</h3>
+<pre><code class="language-bash"># See list of files changed
+git status
+</code></pre>
+<ul>
+<li>The git <strong>status</strong> command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.</li>
+</ul>
+<h3 id="upload-your-changes-step-1-add-files-to-be-tracked">Upload Your Changes Step 1: Add Files to be Tracked</h3>
+<pre><code class="language-bash"># add files by paths
+git add [fileName] 
+# OR add file interactively one by one
+git add -p
+# OR add all changed files (what you'll do more often than not)
+git add --all 
+</code></pre>
+<ul>
+<li>The git <strong>add</strong> command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.</li>
+</ul>
+<h3 id="upload-your-changes-step-2-save-changes-in-a-commit">Upload Your Changes Step 2: Save Changes in a Commit</h3>
+<pre><code class="language-bash"># Commit changes with a descriptive commit message
+git commit -m &quot;commit description&quot;
+</code></pre>
+<ul>
+<li>Changes are not actually recorded after <code>git add</code> until you run <code>git commit</code>.</li>
+<li>A <strong>commit</strong> captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.</li>
+</ul>
+<h3 id="upload-your-changes-step-3-push-committed-changes-to-remote-repository">Upload Your Changes Step 3: Push Committed Changes to Remote Repository</h3>
+<pre><code class="language-bash"># Push changes up to remote repo in whatever branch you are working in
+git push
+
+# IF it is your first time pushing, git will show you a message of where to set the push stream
+git push --set-upstream origin my-new-feature
+</code></pre>
+<ul>
+<li>The git <strong>push</strong> command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo.</li>
+</ul>
+<h3 id="get-changes-from-originmain-to-current-branch">Get changes from origin/main to current branch</h3>
+<pre><code class="language-bash"># origin/main =&gt; local main
+git pull origin main
+</code></pre>
+<ul>
+<li>The git <strong>pull</strong> command is used to fetch and download content from a remote repository and immediately update the local repository to match that content</li>
+</ul>
+<h1 id="an-in-depth-look-at-git">An In-Depth Look at Git</h1>
+<h4 id="so-why-do-we-need-version-control">So why do we need version control?</h4>
+<p>Think about a video game where you've gotten to level 16. But to beat the game completely, you have to make it to level 20. Should you only be able to finish the game if you complete flawlessly it in one try? Of course not. With a version control system you can <strong>commit</strong> your code, kind of like a checkpoint in a video game, before you actually push it and merge it into your codebase. With version control, you can also roll back to previous commits if you want to change something you did without having to Ctrl+Z 100 times. This is why you should <em>commit often</em> and with detailed commit messages.</p>
+<h4 id="some-terms-you-should-understand-about-version-control">Some terms you should understand about version control:</h4>
+<ul>
+<li><strong>Version control</strong> - known as source control, is the practice of tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time</li>
+<li><strong>Repository or "repo"</strong> - Each Git project is called a repository, or “repo” for short. A repo stores all the files and changes made to your project. It’s like a project with memory allowing you to move back and forward in time and observe the ways you have changed and modified your project. Thus, the repo stores data and change information. For developers it can be especially useful as they are learning version control systems to practice how to clone a GitHub repository and know how to delete a repository in GitHub.
+  The three big things you do with version control are commit, clone, and branch. When you commit a change, you add your latest changes to your repo and are directing information to be filed. As in life, commitment is a serious responsibility – and is why every commit needs a serious commit message. A commit message explains changes and is the primary way to communicate changes to your development team. When you commit, you push your changes to the repository, and all information heading upstream to your repo is pushed. This push propels information from your local source into the shared repository.</li>
+<li><strong>Diffs</strong> - Every time you commit there are differences between the project from the last save point to the new one. These changes are called differences, or “diffs” for short. You can compare changes between commits by looking at the diffs.</li>
+<li><strong>Merge Conflict</strong> - A conflict occurs when two parties change the same file and there's no automatic way to reconcile the changes. You must resolve the change by selecting which change wins.</li>
+<li><strong>Clone</strong> - When you clone a Git repository, you create a local copy to work on and your version will match the contents of the repository at the time you cloned it. For instance, you can clone a repository on GitHub to your computer where you can compile it from source, modify it, and more.</li>
+<li><strong>Pull</strong> - If you've been working on a clone project, you may need to catch up with changes others have made by pulling, which changes revisions from the repository to your local copy.</li>
+<li><strong>Forking</strong> - Another way to copy a repository is called “forking,” and is more like a fork in a tree. Unlike when you clone and make a copy on your computer, forking involves making a new repository, typically on GitHub or whatever hosting site you're using. A fork has all the contents of the original, but you are now the owner of this new repository and you're starting a new development project. You're copying a project when you fork and you're working on a project when you clone.</li>
+<li><strong>Branch</strong> - Branches let you create alternate versions of your project. When you branch you can work on new features and try new ideas without messing with your main work. Consider this – your main work may have many names and, like a tree trunk, it’s commonly called the “master,” “master branch,” or “baseline.” The trunk or master is where your team keeps its primary project development and if it’s messed with, your team will suffer. Thus, if you plan to work on something that will take a while and may break your build, be sure to branch so you don't interfere with the work of others on your team.</li>
+<li><a href="https://opensource.com/resources/what-open-source"><strong>Open Source</strong></a> - The term open source refers to something people can modify and share because its design is publicly accessible.</li>
+</ul>
+<p>There are other distributed version control systems that are widely used, for example Mercurial. Instead of typing <code>git</code> before commands, you would use <code>hg</code> for this version control system. The three most popular DVCS (Distributed Version Control Systems) are Mercurial, Git, and Bazaar. Here, we will solely focus on Git.</p>
+<h2 id="creating-your-own-organizations-and-repositories">Creating your own Organizations and Repositories</h2>
+<p>You can create a repository for each project you start on your personal GitHub account, <em>but many suggest creating a separate organization</em> for projects you plan to collaborate on or make open-source.</p>
+<h4 id="quickstart-tutorial-for-repositories"><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories">QuickStart tutorial for Repositories</a></h4>
+<h4 id="readme-files"><a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes">README Files</a></h4>
+<ul>
+<li>You can add a README file to your repository to tell other people why your project is useful, what they can do with your project, and how they can use it.</li>
+<li>If a filed titled <code>README.md</code> file in your repository's hidden .github, root, or docs directory, GitHub will recognize and automatically surface your README to repository visitors.</li>
+<li>If a repository contains more than one README file, then the file shown is chosen from locations in the following order: the .github directory, then the repository's root directory, and finally the docs directory.</li>
+</ul>
+<h2 id="understanding-branches-how-to-collaborate">Understanding Branches &amp; How to Collaborate</h2>
+<h4 id="pull-requests"><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">Pull Requests</a></h4>
+<ul>
+<li>Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.</li>
+<li>In order to help your team, make sure you publish your Pull Requests when they're ready with clean code and helpful descriptions```</li>
+</ul>
+<h4 id="merging"><a href="https://git-scm.com/docs/git-merge">Merging</a></h4>
+<p>Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. Note that all of the commands presented below merge into the current branch.</p>
+<h4 id="merge-conflicts"><a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts">Merge Conflicts</a></h4>
+<ul>
+<li>Merge conflicts happen when you merge branches that have competing commits, and Git needs your help to decide which changes to incorporate in the final merge</li>
+<li>Keep your code loosely coupled and divide work appropriately to try to avoid merge conflicts as much as possible, though they will eventually be inevitable</li>
+</ul>
+<h4 id="rebasing"><a href="https://docs.github.com/en/get-started/using-git/about-git-rebase">Rebasing</a></h4>
+<p>The git rebase command allows you to easily change a series of commits, modifying the history of your repository. You can reorder, edit, or squash commits together.
+Typically, you would use git rebase to:</p>
+<ul>
+<li>Edit previous commit messages</li>
+<li>Combine multiple commits into one</li>
+<li>Delete or revert commits that are no longer necessary</li>
+</ul>
+<h2 id="common-commands-you-should-know">Common Commands You Should Know</h2>
+<p><em>For more, check out the <a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheat Sheet</a></em></p>
+<h4 id="first-time-git-users">First Time Git users</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Command</strong></th>
+<th><strong>Action</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git config -l</code></td>
+<td>check your Git configuration - returns a list of information about your git configuration including user name and email</td>
+</tr>
+<tr>
+<td><code>git config --global user.name "Genesis"</code></td>
+<td>Set up your username</td>
+</tr>
+<tr>
+<td><code>git config --global user.email "genesis@gmail.com"</code></td>
+<td>This command lets you setup the user email address you'll use in your commits.</td>
+</tr>
+<tr>
+<td><code>git init</code></td>
+<td>initialize a git Repo</td>
+</tr>
+</tbody>
+</table>
+<h4 id="every-day-commands">Every Day Commands</h4>
+<table>
+<thead>
+<tr>
+<th><strong>Command</strong></th>
+<th><strong>Action</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>git add [file names]</code></td>
+<td>First step in pushing changes. This adds changes in the file listed to be tracked for changes. To add all changes in all files, run <code>git add .</code></td>
+</tr>
+<tr>
+<td><code>git commit -m "message"</code></td>
+<td>Commit your code with a <em>detailed</em> message</td>
+</tr>
+<tr>
+<td><a href="https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository"><code>git push</code></a></td>
+<td>Push local changes up to remote git branch</td>
+</tr>
+<tr>
+<td><code>git checkout -b branch-name</code></td>
+<td>create new branch, branch-name</td>
+</tr>
+<tr>
+<td><code>git checkout branch-name</code></td>
+<td>open up the branch branch-name</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../redis-basics/" class="btn btn-neutral float-left" title="Redis Basics"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../react-basics/" class="btn btn-neutral float-right" title="React Basics">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../redis-basics/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../react-basics/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

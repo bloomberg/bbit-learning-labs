@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Python Basics - Bloomberg Tech Lab</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Python Basics";
+        var mkdocs_page_input_path = "resources/python-basics.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Bloomberg Tech Lab
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../backend/">Backend</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../frontend/">Frontend</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../api-question-prompt/">Interview Question Prompt</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Resources</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../resources/">Overview</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../redis-basics/">Redis Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../git-basics/">Git Basics</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../react-basics/">React Basics</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Python Basics</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#import-modules">Import Modules</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#creating-a-class">Creating a Class</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#saving-a-instance-variable-and-calling-the-variable">Saving a Instance Variable and Calling the Variable</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#creating-an-interface">Creating an Interface</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#inheritance">Inheritance</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#reading-from-command-line-using-sys">Reading from Command Line Using sys</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../docker-basics/">Docker Basics</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Bloomberg Tech Lab</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Resources</li>
+      <li class="breadcrumb-item active">Python Basics</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="python-basics">Python Basics</h1>
+<h2 id="import-modules">Import Modules</h2>
+<p>To import a module, for example <code>sys</code>, use the keyword <code>import</code>:</p>
+<pre><code class="language-sh">import sys
+</code></pre>
+<p>If you are trying to import only one method or a class from another file / module:</p>
+<pre><code class="language-sh">from dog_interface import DogInterface
+</code></pre>
+<h2 id="creating-a-class">Creating a Class</h2>
+<p>Classes are the building blocks of object-oriented programming. In python, to create a class
+we use the keyword <code>class</code> to define a class. For example, let's say I want to create a class called Animal. Within a class, there is a constructor method called <code>__init__</code> which initalizes a newly created object.
+Here is an example of a simple class:</p>
+<pre><code class="language-sh">class Animal:
+    def __init__(self, name):
+        # body of constructor
+        self.name = name
+
+    def eat(self):
+        print(self.name, &quot;is eating.&quot;)
+</code></pre>
+<h2 id="saving-a-instance-variable-and-calling-the-variable">Saving a Instance Variable and Calling the Variable</h2>
+<p>In python, there is a keyword, <code>self</code>, which represents an instance of a class. This keyword allows you to access variables, methods, and attributes in the class. Let's build out our Dog interface and pass in the name of a dog, and have a function named bark:</p>
+<pre><code class="language-sh">class Dog(DogInterface):
+    def __init__(self, name) -&gt; None:
+        # Save parameters to instance variable
+        self.name = name
+
+    def bark(self) -&gt; None:
+        # Print {name of dog} is barking!
+        print(self.name, &quot;is barking!&quot;)
+</code></pre>
+<p>We can access the name initialized in the <code>__init__</code> method with <code>self</code>. When we want to create an object of this class with a name and call the method, <code>bark()</code>, it can access the name given and print out the statement. Remember, this is an example. You can initialize more variables within any of the class methods and access it through <code>self</code>!</p>
+<h2 id="creating-an-interface">Creating an Interface</h2>
+<p>Python does not have a keyword for interfaces. An interface is an abstract class that defines methods which are not implemented. An interface is implemented in the same way as a class, however, an interface will have abstract methods so you will see the keyword <code>pass</code> in those methods. That means that any subclass will construct those methods how it wants to use them. So two different classes which inherit from the same intergace will inherit the same functions, but can have different implementations.
+Here is an example of a simple interface:</p>
+<pre><code class="language-sh">class DogInterface:
+    def __init__(self, name) -&gt; None:
+        # Save parameters to class variables
+        pass
+
+    def bark(self) -&gt; None:
+        # Print {name of dog} is barking!
+        pass
+</code></pre>
+<h2 id="inheritance">Inheritance</h2>
+<p>Inheritance allows us to define a class that can inherit methods and properties of another existing class or interface. Let us use the example DogInterface from above. Let's create a Dog class that inherits DogInterface:</p>
+<pre><code class="language-sh">class Dog(DogInterface):
+    def __init__(self, name):
+        # Save parameters to instance variable
+        self.name = name
+
+    def bark(self):
+        # Print {name of dog} is barking!
+        print(self.name, &quot;is barking!&quot;)
+</code></pre>
+<p>Since <code>Dog</code> is inheriting <code>DogInterface</code>, we implement the methods according to how we want both methods to work.</p>
+<p>To inherit from another class would have the same initialization, but the child class can have different methods. Let's write a Dog class inheriting the class Animal that was mentioned in the Creating a Class section:</p>
+<pre><code class="language-sh">class Dog(Animal):
+    def __init__(self, name):
+    self.name = name
+</code></pre>
+<p>Since <code>Dog</code> is inheriting <code>Animal</code>, we can use the method <code>eat()</code> on all <code>Dog</code> objects.</p>
+<pre><code class="language-sh">snoopy = Dog(&quot;Snoopy&quot;)
+snoopy.eat() # this will print: &quot;Snoopy is eating.&quot;
+</code></pre>
+<h2 id="reading-from-command-line-using-sys">Reading from Command Line Using sys</h2>
+<p>There are a few ways to read arguments from the command line, but we will go over using <code>sys</code>.
+In this module, there is a variable, <code>sys.argv</code>, which is a list. Some things to note:</p>
+<ol>
+<li>since sys.argv is a list, we can get the length of arguments with len()</li>
+<li>sys.argv[0] will be the name of the file given</li>
+<li>All arguments are <strong>strings</strong>!</li>
+</ol>
+<p><strong>Example</strong></p>
+<p>Command:</p>
+<pre><code class="language-sh">python3 read_cmd_line.py apple banana
+</code></pre>
+<p>Code:</p>
+<pre><code class="language-sh">&quot;&quot;&quot;
+Read arguments from command line using sys.argv
+&quot;&quot;&quot;
+
+import sys
+
+print(&quot;Name of the program using sys.argv[0]: &quot;, sys.argv[0])
+print(&quot;Length of arguments given including program name: &quot;, len(sys.argv))
+print(&quot;Argument list: &quot;, sys.argv)
+print(&quot;Argument list type: &quot;, type(sys.argv))
+print(&quot;Give the first argument (after program name): &quot;, sys.argv[1])
+</code></pre>
+<p>Output:
+<img alt="alt text" src="../../images/sys-argv-image.jpg" /></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../react-basics/" class="btn btn-neutral float-left" title="React Basics"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../docker-basics/" class="btn btn-neutral float-right" title="Docker Basics">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../react-basics/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../docker-basics/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
