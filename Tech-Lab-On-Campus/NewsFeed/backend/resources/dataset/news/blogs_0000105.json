@@ -1,0 +1,105 @@
+{
+  "organizations": [],
+  "uuid": "29ce0fbe26d278998f9fa43a0c7e79bf3e6ce212",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 0
+      },
+      "facebook": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/03/104926208-GettyImages-853791956.1910x1000.jpg",
+    "site_section": "http://www.cnbc.com/id/19746125/device/rss/rss.xml",
+    "section_title": "Top News and Analysis (pro)",
+    "url": "https://www.cnbc.com/2018/01/03/intels-alleged-security-flaw-could-cost-chipmaker-a-lot-of-money-bernstein.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "Intel's alleged security flaw could cost chipmaker a lot of money, Bernstein says",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-03T19:56:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "29ce0fbe26d278998f9fa43a0c7e79bf3e6ce212"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/03/intels-alleged-security-flaw-could-cost-chipmaker-a-lot-of-money-bernstein.html",
+  "ord_in_thread": 0,
+  "title": "Intel's alleged security flaw could cost chipmaker a lot of money, Bernstein says",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "misha friedman",
+        "sentiment": "negative"
+      },
+      {
+        "name": "bernstein",
+        "sentiment": "negative"
+      },
+      {
+        "name": "brian krzanich",
+        "sentiment": "negative"
+      },
+      {
+        "name": "stacy rasgon",
+        "sentiment": "none"
+      },
+      {
+        "name": "rasgon",
+        "sentiment": "none"
+      }
+    ],
+    "locations": [],
+    "organizations": [
+      {
+        "name": "intel corp",
+        "sentiment": "negative"
+      },
+      {
+        "name": "bloomberg",
+        "sentiment": "negative"
+      },
+      {
+        "name": "intel",
+        "sentiment": "negative"
+      },
+      {
+        "name": "amd",
+        "sentiment": "none"
+      },
+      {
+        "name": "microsoft",
+        "sentiment": "none"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "A report alleging Intel chips have a security flaw could cost the chipmaker a lot of money, according to one Wall Street firm.\nThe British tech website Register reported Tuesday that some Intel processors have a \"fundamental design flaw\" that will spur a significant security update of Linux and Microsoft Windows operating systems to work around it. The report said AMD chips were not affected.\nBernstein reiterated its underperform rating on Intel shares, saying the issue will have negative implications for its financials.\n\"For Intel, we believe the negative (charges, potential ongoing liability, possible share loss etc) outweighs the potentially positive (if you want to call it that) of a possible accelerated replacement cycle,\" analyst Stacy Rasgon wrote in a note to clients Wednesday.\nRasgon noted the $475 million charge for the Pentium FDIV bug in 1994 and the $700 million charge for the Cougar Point chipset problem in 2011.\n\"The current problem feels much bigger\" than the previous two incidents, he wrote. Intel's \"potential liability remains the biggest open-ended question we have at the moment.\"\nThe analyst reaffirmed his $34 price target for Intel shares, representing 27 percent downside to Tuesday's close.\nShares of AMD were up 4.2 percent Wednesday, while Intel's stock declined 3.9 percent.\nAMD declined to comment on The Register report.\nIntel released the following statement Wednesday:\n\"Intel and other technology companies have been made aware of new security research describing software analysis methods that, when used for malicious purposes, have the potential to improperly gather sensitive data from computing devices that are operating as designed. Intel believes these exploits do not have the potential to corrupt, modify or delete data. Recent reports that these exploits are caused by a 'bug' or a 'flaw' and are unique to Intel products are incorrect.\"\nIntel shares rose 27 percent in 2017 versus AMD's stock 9 percent decline.\n— CNBC's Michael Bloom contributed to this story.\nDisclaimer",
+  "external_links": [],
+  "published": "2018-01-03T19:56:00.000+02:00",
+  "crawled": "2018-01-03T20:11:54.007+02:00",
+  "highlightTitle": ""
+}

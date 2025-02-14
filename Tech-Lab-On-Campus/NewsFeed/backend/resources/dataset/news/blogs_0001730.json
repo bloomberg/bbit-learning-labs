@@ -1,0 +1,93 @@
+{
+  "organizations": [],
+  "uuid": "9f7a6239162f91b0ed31506d4542b963da82109e",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 0
+      },
+      "facebook": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/02/104923848-GettyImages-623263230.1910x1000.jpg",
+    "site_section": "http://www.cnbc.com/id/19746125/device/rss/rss.xml#",
+    "section_title": "Top News and Analysis (pro)",
+    "url": "https://www.cnbc.com/2018/01/02/weight-watchers-jumps-after-signing-dj-khaled.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "Weight Watchers rallies after DJ Khaled signing as it looks to repeat Oprah success",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-02T17:12:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "9f7a6239162f91b0ed31506d4542b963da82109e"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/02/weight-watchers-jumps-after-signing-dj-khaled.html",
+  "ord_in_thread": 0,
+  "title": "Weight Watchers rallies after DJ Khaled signing as it looks to repeat Oprah success",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "patrick t. fallon",
+        "sentiment": "negative"
+      },
+      {
+        "name": "oprah",
+        "sentiment": "negative"
+      },
+      {
+        "name": "khaled",
+        "sentiment": "none"
+      },
+      {
+        "name": "winfrey",
+        "sentiment": "none"
+      },
+      {
+        "name": "oprah winfrey",
+        "sentiment": "none"
+      },
+      {
+        "name": "mindy grossman",
+        "sentiment": "none"
+      }
+    ],
+    "locations": [],
+    "organizations": [
+      {
+        "name": "bloomberg",
+        "sentiment": "negative"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "Shares of Weight Watchers rose nearly 6 percent Tuesday after the company announced that music producer DJ Khaled will be its \"social media ambassador\" in 2018.\nWeight Watchers said Khaled will document his progress on social media as he completes the \"WW Freestyle\" weight-loss program.\nKhaled has a wide following on social media. As of Tuesday morning, he had 3.92 million followers on Twitter . The music mogul also gets",
+  "external_links": [],
+  "published": "2018-01-02T17:12:00.000+02:00",
+  "crawled": "2018-01-02T18:18:57.005+02:00",
+  "highlightTitle": ""
+}

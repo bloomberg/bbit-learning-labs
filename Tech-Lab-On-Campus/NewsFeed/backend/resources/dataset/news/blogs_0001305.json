@@ -1,0 +1,63 @@
+{
+  "organizations": [],
+  "uuid": "dd9c4c7e79f6a4c4caa80c338f5f52edc5fe1177",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 0
+      },
+      "facebook": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/03/104926004-4ED1-SOTS-PisaniETF-010318.600x400.jpg",
+    "site_section": "http://www.cnbc.com/id/10001135/device/rss/rss.html",
+    "section_title": "Stock Picks",
+    "url": "https://www.cnbc.com/video/2018/01/03/2018-etf-market-predictions.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "2018 ETF market predictions",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-03T17:32:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "dd9c4c7e79f6a4c4caa80c338f5f52edc5fe1177"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/video/2018/01/03/2018-etf-market-predictions.html",
+  "ord_in_thread": 0,
+  "title": "2018 ETF market predictions",
+  "locations": [],
+  "entities": {
+    "persons": [],
+    "locations": [],
+    "organizations": []
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "00:54 00:54 | 3 Hrs Ago",
+  "external_links": [],
+  "published": "2018-01-03T17:32:00.000+02:00",
+  "crawled": "2018-01-03T20:33:07.002+02:00",
+  "highlightTitle": ""
+}

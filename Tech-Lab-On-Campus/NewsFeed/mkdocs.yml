@@ -1,0 +1,14 @@
+site_name: Bloomberg Tech Lab
+nav:
+  - Home: index.md
+  - Backend: backend.md
+  - Frontend: frontend.md
+  - Interview Question Prompt: api-question-prompt.md
+  - Resources:
+    - Overview: resources/resources.md
+    - Redis Basics: resources/redis-basics.md
+    - Git Basics: resources/git-basics.md
+    - React Basics: resources/react-basics.md
+    - Python Basics: resources/python-basics.md
+    - Docker Basics: resources/docker-basics.md
+theme: readthedocs

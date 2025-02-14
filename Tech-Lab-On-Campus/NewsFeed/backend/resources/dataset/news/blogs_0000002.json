@@ -1,0 +1,76 @@
+{
+  "organizations": [],
+  "uuid": "c87033fea6042ddc5d9289deebfaa97d4b745e80",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 0
+      },
+      "facebook": {
+        "likes": 1,
+        "shares": 1,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/02/104924846-3ED2-MM-Block-A-010218.600x400.jpg",
+    "site_section": "http://www.cnbc.com/id/10001135/device/rss/rss.html",
+    "section_title": "Stock Picks",
+    "url": "https://www.cnbc.com/video/2018/01/02/cramer-reflects-on-how-trumps-actions-fuel-the-beast-market-rally.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "Cramer reflects on how Trump's actions are fueling the 'beast' market rally",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-03T01:34:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "c87033fea6042ddc5d9289deebfaa97d4b745e80"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/video/2018/01/02/cramer-reflects-on-how-trumps-actions-fuel-the-beast-market-rally.html",
+  "ord_in_thread": 0,
+  "title": "Cramer reflects on how Trump's actions are fueling the 'beast' market rally",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "trump",
+        "sentiment": "negative"
+      },
+      {
+        "name": "cramer",
+        "sentiment": "negative"
+      },
+      {
+        "name": "jim cramer",
+        "sentiment": "negative"
+      }
+    ],
+    "locations": [],
+    "organizations": []
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "Cramer reflects on how Trump's actions are fueling the 'beast' market rally 1 Hour Ago Jim Cramer examined the notion that investors are \"bored\" with the market rally and explained how the president is driving stocks higher.",
+  "external_links": [],
+  "published": "2018-01-03T01:34:00.000+02:00",
+  "crawled": "2018-01-03T01:56:41.007+02:00",
+  "highlightTitle": ""
+}
