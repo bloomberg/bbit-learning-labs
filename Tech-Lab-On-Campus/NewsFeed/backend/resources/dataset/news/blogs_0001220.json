@@ -1,0 +1,97 @@
+{
+  "organizations": [],
+  "uuid": "6c376d2379dfd55cecde26c53484fc6a813b7301",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 4
+      },
+      "facebook": {
+        "likes": 104,
+        "shares": 104,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/02/104924554-GettyImages-900145556.1910x1000.jpg",
+    "site_section": "http://www.cnbc.com/id/10001135/device/rss/rss.html",
+    "section_title": "Stock Picks",
+    "url": "https://www.cnbc.com/2018/01/02/cramers-sp-500-and-dow-charts-indicate-a-strong-start-to-2018.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "Cramer's S&P 500 and Dow charts indicate a strong start to 2018",
+    "performance_score": 1,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-03T01:44:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "6c376d2379dfd55cecde26c53484fc6a813b7301"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/02/cramers-sp-500-and-dow-charts-indicate-a-strong-start-to-2018.html",
+  "ord_in_thread": 0,
+  "title": "Cramer's S&P 500 and Dow charts indicate a strong start to 2018",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "jim cramer cramer",
+        "sentiment": "negative"
+      },
+      {
+        "name": "cramer",
+        "sentiment": "negative"
+      },
+      {
+        "name": "jim cramer",
+        "sentiment": "none"
+      },
+      {
+        "name": "bob lang",
+        "sentiment": "none"
+      },
+      {
+        "name": "lang",
+        "sentiment": "none"
+      }
+    ],
+    "locations": [],
+    "organizations": [
+      {
+        "name": "s&p",
+        "sentiment": "negative"
+      },
+      {
+        "name": "cnbc",
+        "sentiment": "none"
+      },
+      {
+        "name": "thestreet.com's trifecta stocks",
+        "sentiment": "none"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "In light of the new year, CNBC's Jim Cramer wanted to zoom in on two of the market's top benchmarks to see how they'll fare in 2018: the S&P 500 and the Dow Jones industrial average .\nSo the \" Mad Money \" host recruited technician Bob Lang, the founder of ExplosiveOptions.net and one of the three minds behind TheStreet.com's Trifecta Stocks newsletter, to get an analytical take on the action.\nCramer and Lang began with the weekly chart of the S&P. For the first time ever, the index did not have a single losing month in all of 2017, perhaps even more impressive than its nearly 20 percent annual gain.\n\"With so much momentum coming into this year, Lang thinks it would be a big mistake to get too bearish on this one,\" Cramer said.\nIn the fourth quarter, more stocks in the S&P started to trade above their 50-day moving averages, a good indicator of the breadth and strength of the index's rally.\nCramer attributed the strength to institutional buying after the S&P's small dip in November, and said that the strategy was a winning one going forward as well.\n\"Until we see any evidence that these institutions want to start selling en masse, and we have none, Lang thinks you should keep buying the S&P into any dip if we get one,\" Cramer advised. \"Last year, the S&P only had two pullbacks, and they both went to its 20-week moving average ... and both [of] these turned out to be excellent buying opportunities.\"\nAll in all, Lang wouldn't be surprised if the S&P logged yet another double-digit gain in the new year, he told Cramer.\nWhat of the Dow industrials? First and foremost, Cramer noted the average's 25 percent gain for 2017, calling its weekly chart \"picture-perfect.\"\nFrom the Chaikin money flow oscillator, which measures buying and selling pressure, to the Relative Strength Index, which measures momentum, the Dow's technical indicators were red-hot for most of 2017, indicating high levels of institutional buying.\n\"From a momentum perspective, Lang says this chart is a thing of beauty,\" Cramer said. \"Volume trends are positive, the money flow remains very strong — what's not to like?\"\nLang even said that trying to call a top for the Dow would be \"pointless\" given its strength and predicted a 12 to 15 percent rise in 2018, keeping the possibility of Dow 30,000 on the table.\n\"[These] charts give us a lot of reasons to be feeling pretty darned good about 2018,\" Cramer said. \"No, we don't want to get too euphoric. No, we don't want to be complacent. But I also think it's a big mistake to get too cynical — that's right, too sardonic — for your own good. Irony never made a dime for anybody. Let's face it: we've got a phenomenal bull market going here. Why don't you just enjoy it?\"\nWATCH: A year of Dow and S&P 500 charts with Cramer show chapters Cramer's S&P 500 and Dow charts indicate a strong start to 2018 20 Hours Ago | 05:30 ",
+  "external_links": [],
+  "published": "2018-01-03T01:44:00.000+02:00",
+  "crawled": "2018-01-03T03:32:45.003+02:00",
+  "highlightTitle": ""
+}

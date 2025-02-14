@@ -1,0 +1,94 @@
+{
+  "organizations": [],
+  "uuid": "2e7d17c8e8ea70a871f002f2ccce6ad3f4cd7272",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 0
+      },
+      "facebook": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/02/104924148-GettyImages-671289918-bill-melinda-gates.1910x1000.jpg",
+    "site_section": "http://www.cnbc.com/id/19746125/device/rss/rss.xml#",
+    "section_title": "Top News and Analysis (pro)",
+    "url": "https://www.cnbc.com/2018/01/02/the-10-biggest-charitable-gifts-of-2017.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "The 10 biggest charitable gifts of 2017",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-02T21:25:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "2e7d17c8e8ea70a871f002f2ccce6ad3f4cd7272"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/02/the-10-biggest-charitable-gifts-of-2017.html",
+  "ord_in_thread": 0,
+  "title": "The 10 biggest charitable gifts of 2017",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "frederic stevens",
+        "sentiment": "none"
+      },
+      {
+        "name": "bill",
+        "sentiment": "none"
+      },
+      {
+        "name": "melinda gates",
+        "sentiment": "none"
+      }
+    ],
+    "locations": [
+      {
+        "name": "america",
+        "sentiment": "none"
+      },
+      {
+        "name": "paris",
+        "sentiment": "none"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "chronicle of philanthropy",
+        "sentiment": "none"
+      },
+      {
+        "name": "microsoft",
+        "sentiment": "none"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "Last year was a record year for mega-gifts, with three charitable donations of $1 billion or more, according to a new report.\n\nThe Chronicle of Philanthropy compiled its list of the 10 biggest gifts of 2017, with three donations of $1 billion or more — the strongest year in the past decade. And while the top three names are familiar tech names, most of the names on the list are fairly unknown to the broader public, showing that many of America's biggest philanthropists keep a low profile.\n\nThe 10 largest gifts totaled $10.2 billion in 2017, more than double the total from 2016, of $4.3 billion.\n\nFirst on the list was Bill and Melinda Gates , who gave Microsoft stock valued at around $4.6 billion to the Bill and Melinda Gates Foundation, which focuses on global development, health and education.\n\nRanking second was Mark Zuckerberg and his wife, Priscilla Chan, who contributed around $1.9 billion to the Chan Zuckerberg Foundation, a non-profit arm of their LLC. Third on the list was Michael Dell and his wife Susan, who donated $1 billion to their foundation.\n\nBut the fourth-place leader is a little-known name — Henry Hillman. The late Pittsburgh billionaire, who died in April and made his money in financial services and venture capital, left $800 million to the Hillman Family Foundations, mainly to benefit the Pittsburgh area.\n\nRanking fifth is another person relatively unknown to the general public — Florence Irving, the widow of the co-founder of Sysco , the food products giant. She gave $600 million to the Columbia University Herbert and Florence Irving Medical Center and New York-Presbyterian Columbia University Irving Medical Center.\n\nHere is the full list of the givers and causes, from the Chronicle of Philanthropy.",
+  "external_links": [],
+  "published": "2018-01-02T21:25:00.000+02:00",
+  "crawled": "2018-01-02T21:52:15.001+02:00",
+  "highlightTitle": ""
+}

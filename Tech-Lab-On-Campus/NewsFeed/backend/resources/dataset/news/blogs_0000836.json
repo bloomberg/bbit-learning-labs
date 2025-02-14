@@ -1,0 +1,98 @@
+{
+  "organizations": [],
+  "uuid": "d3750aad7f2b8c55075dc478382433e621342d6b",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 0
+      },
+      "facebook": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/11/27/104864105-GettyImages-522598320-southwest-baggage.1910x1000.jpg",
+    "site_section": "http://www.cnbc.com/id/19746125/device/rss/rss.xml#",
+    "section_title": "Top News and Analysis (pro)",
+    "url": "https://www.cnbc.com/2018/01/03/southwest-airlines-wants-larger-boeing-737-max-8s-soon.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "Southwest Airlines to Boeing: We'll take the large",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-03T23:17:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "d3750aad7f2b8c55075dc478382433e621342d6b"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/03/southwest-airlines-wants-larger-boeing-737-max-8s-soon.html",
+  "ord_in_thread": 0,
+  "title": "Southwest Airlines to Boeing: We'll take the large",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "patrick t. fallon",
+        "sentiment": "negative"
+      }
+    ],
+    "locations": [
+      {
+        "name": "john wayne airport",
+        "sentiment": "none"
+      },
+      {
+        "name": "santa ana",
+        "sentiment": "none"
+      },
+      {
+        "name": "california",
+        "sentiment": "none"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "southwest airlines",
+        "sentiment": "negative"
+      },
+      {
+        "name": "bloomberg",
+        "sentiment": "negative"
+      },
+      {
+        "name": "boeing",
+        "sentiment": "negative"
+      },
+      {
+        "name": "southwest",
+        "sentiment": "none"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "SHARES Patrick T. Fallon | Bloomberg | Getty Images A ground operations employee loads baggage onto a Southwest Airlines plane at John Wayne Airport in Santa Ana, California. \nSouthwest Airlines is upsizing. \nThe airline has exercised options for 40 Boeing 737 Max 8 airplanes worth $4.5 billion at list prices, it said late Tuesday. Southwest is also deferring orders for smaller models to at least 2023. \nThe carrier, like other airlines around the world, has been mulling which aircraft to add to its fleet as record numbers of passengers take to the skies. \nIf airlines choose planes that are too big, they risk owning multimillion-dollar behemoths that are expensive to fly and tough to fill with passengers . If they go too small, their costs per seat could be high and they may need more aircraft to meet demand. \nCompared with other airlines whose fleets include planes from different manufacturers, Southwest only flies Boeing 737s, and the carrier is the biggest operator of the Chicago-based company's narrow-body jets. \nThe change in Southwest's order does not change its plan for capacity growth this year, it said. \nThe Boeing 737 Max 8 fits as many as 189 seats, according to Boeing, but Southwest intends to fly them with 175 on board. \nSouthwest debuted the 737 Max 8 last year in the 175-seat configuration, with 32 inches of legroom. The airline intends to fly the smaller Max 7 with 143 passengers. \nThe airline announced the fleet changes in a statement applauding the passage of the tax law late last year, which it said allows it to give its workers $1,000 bonuses . \nSouthwest will get 15 of the 737 Max 8s next year and 25 in 2020, it said. Twenty-three of the smaller 737 Max 7s will be delivered in 2023 and 11 others in 2024, according to the airline. \nThe airline said the delay in accepting the smaller 737 Max 7 jets would allow it to line it up with the retirement of some older 737 planes. \n\"They both still fit in with our fleet plan,\" spokesman Chris Mainz said of the two new 737 models. \nFor its part, Boeing said that \"there is no impact to the Max program\" as a result of Southwest's decision. Leslie Josephs Airline Reporter for CNBC.com Related Securities",
+  "external_links": [],
+  "published": "2018-01-03T23:17:00.000+02:00",
+  "crawled": "2018-01-03T23:35:56.013+02:00",
+  "highlightTitle": ""
+}

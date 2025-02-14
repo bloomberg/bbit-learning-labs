@@ -1,0 +1,98 @@
+{
+  "organizations": [],
+  "uuid": "b28c42c168712fd4d9637845b69c6378495a9e50",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 23
+      },
+      "facebook": {
+        "likes": 195,
+        "shares": 195,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2016/05/31/103677956-DSC00852.1910x1000.JPG",
+    "site_section": "http://www.cnbc.com/id/19746125/device/rss/rss.xml",
+    "section_title": "Top News and Analysis (pro)",
+    "url": "https://www.cnbc.com/2018/01/03/spark-therapeutics-luxturna-gene-therapy-will-cost-about-850000.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "Spark prices the first US gene therapy drug at $850,000 — which is actually less than expected",
+    "performance_score": 1,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-03T15:30:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "b28c42c168712fd4d9637845b69c6378495a9e50"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/03/spark-therapeutics-luxturna-gene-therapy-will-cost-about-850000.html",
+  "ord_in_thread": 0,
+  "title": "Spark prices the first US gene therapy drug at $850,000 — which is actually less than expected",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "luxturna",
+        "sentiment": "none"
+      },
+      {
+        "name": "steve miller",
+        "sentiment": "none"
+      }
+    ],
+    "locations": [
+      {
+        "name": "u.s.",
+        "sentiment": "none"
+      },
+      {
+        "name": "us",
+        "sentiment": "none"
+      },
+      {
+        "name": "luxturna",
+        "sentiment": "none"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "cnbc",
+        "sentiment": "negative"
+      },
+      {
+        "name": "shares brad quick",
+        "sentiment": "negative"
+      },
+      {
+        "name": "food and drug administration",
+        "sentiment": "none"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "The first gene therapy in the U.S. now has a price tag: $850,000 for the one-time treatment, or, more specifically, $425,000 per eye for a retinal disorder.\nThe price is for Spark Therapeutics' Luxturna, approved by the Food and Drug Administration in December to treat a rare, inherited retinal disease that can lead to blindness. The Philadelphia-based biotechnology company also revealed Wednesday morning a set of payment and access programs, including tying payments to how well the therapy works and exploring payment by installment.\nThe treatment is delivered just once, a facet of gene therapy that poses unique pricing questions in an industry fueled by steady payments for chronic therapies.\n\"It's wildly expensive but, to be very frank, I think they've priced it what I'll call responsibly,\" said Dr. Steve Miller, chief medical officer of pharmacy benefits manager Express Scripts , which is partnering with Spark on distribution and specialty pharmacy services for Luxturna. \"The product is just phenomenally innovative, and we've been talking about gene therapy for over 20 years. We're now at the threshold of having gene therapy reaching patients.\"\nWall Street expectations for Luxturna's price were around a million dollars, and Spark's $425,000 for each eye comes in under that mark.\n\"It came down to the value we believed was inherent in the therapy,\" Spark Chief Executive Officer Jeff Marrazzo said in an interview. He, as well as Miller, spoke with CNBC ahead of the announcement on condition the information not be published until the news was public.\n\"We also heard and did market research with payers ... and wanted to take into account the questions and challenges they had about affordability,\" Marrazzo continued. \"Ultimately this is about access.\"\nGene therapy involves the delivery, using a modified virus, of a healthy copy of a gene to make up for one that's deficient in a way that causes disease. In the retinal dystrophy Spark aims to treat with Luxturna, which the company estimates affects between 1,000 and 2,000 people in the U.S., mutations in a gene called RPE65 lead to impaired vision that deteriorates over time.\nIn clinical trials, patients' sight was assessed by their ability to navigate an obstacle course in different levels of light. Those receiving Luxturna showed significant improvement in their ability to do so at low light after a year.\nPatients who participated in the trial also described, in interviews and in testimony to a panel of FDA advisers, seeing snowflakes for the first time or being able to read again.\nA new form of medical treatment brings with it new challenges, not only in its price. Marrazzo said Luxturna will only be available at half a dozen treatment centers in the U.S. throughout this year, so Spark will ensure financial support and logistics for travel and accommodations.\nThe company also outlined several plans for new payment models that Marrazzo says aim to ensure access for patients, recognize the value of the product for Spark, and remove extra cost and risk for insurers and hospitals.\nOne is an agreement with Harvard Pilgrim, a nonprofit health plan covering 1.2 million people, to pay rebates if a patient's vision doesn't meet certain thresholds in 30 to 90 days, and then 30 months after treatment, under a model known as outcomes-based pricing.\n\"What's important and unique about the product is not just standing behind the efficacy but behind the long-term durability from a single dose,\" Marrazzo said.\nAnother recently approved one-time therapy, Novartis' Kymriah for a form of leukemia, also has an outcomes-based pledge: If the treatment isn't working after a month, Novartis doesn't get paid. That treatment is priced at $475,000.\nBoth Kymriah and another one-time cancer treatment approved in 2017, Gilead's Yescarta, are referred to by the FDA as gene therapies because they involve genetically modifying patients' own immune cells to identify cancer. They're known as CAR-T therapies.\nLuxturna is the first of a crop of treatments that target diseases caused by mutations in specific genes, and thus is referred to by many as the first gene therapy in the U.S.\nSpark also announced a program Wednesday, through a partnership with Express Scripts, to offer a way for insurers to purchase Luxturna directly, avoiding a so-called buy and bill model in which treatment centers administering a drug must purchase it upfront.\nThe goal is to remove the risk for treatment centers in purchasing, handling and waiting for reimbursement of expensive products, and to alleviate for insurers potential markup costs imposed by the treatment centers, Marrazzo said.\nHe said the company is in active discussions with additional insurers, with coverage announcements coming over the next few weeks and months.\nExpress Scripts, which in its role as a pharmacy benefit manager negotiates drug prices and reimbursement on behalf of insurers and employers, \"will work with health plans and plan sponsors to decide where they want [Luxturna] on their plans,\" Miller said. He said Express Scripts will receive a dispensing fee for its work with Spark, \"not dependent on the price of the drug.\"\nFinally, Spark is also exploring a much-discussed idea for paying for expensive, one-time treatments: staggered payments that would spread costs out over time.\nSome of the challenges for this are government requirements tying prices to the lowest available, and the fact that patients switch health insurance providers numerous times over the course of their lives — an average of every three years, according to Spark.\nMarrazzo said the company is in talks with the U.S. Centers for Medicare and Medicaid Services, including Administrator Seema Verma, on a proposal that would waive some of those requirements, enabling it to offer an installment payment option and bigger rebates linked to how well the treatment works.\n\"We're at the infancy of what I think could be a lot of innovations in how we pay for these really expensive drugs,\" Express Scripts' Miller said. \"We've got to figure this out, because — let's be frank — there are going to be more of these drugs coming to the marketplace for even bigger populations.\"",
+  "external_links": [],
+  "published": "2018-01-03T15:30:00.000+02:00",
+  "crawled": "2018-01-03T15:34:36.011+02:00",
+  "highlightTitle": ""
+}

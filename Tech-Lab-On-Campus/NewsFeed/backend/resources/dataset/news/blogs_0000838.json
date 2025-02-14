@@ -1,0 +1,86 @@
+{
+  "organizations": [],
+  "uuid": "01d7464c712fdccc21019821bde78ace1f3c90a6",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 0
+      },
+      "facebook": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/02/104924752-GettyImages-895470622.1910x1000.jpg",
+    "site_section": "http://www.cnbc.com/id/19746125/device/rss/rss.xml#",
+    "section_title": "Top News and Analysis (pro)",
+    "url": "https://www.cnbc.com/2018/01/03/tesla-q4-2017-production-and-delivery-numbers.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "Tesla delivers 1,550 Model 3 sedans and 29,870 total vehicles in fourth quarter",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-03T23:30:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "01d7464c712fdccc21019821bde78ace1f3c90a6"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/03/tesla-q4-2017-production-and-delivery-numbers.html",
+  "ord_in_thread": 0,
+  "title": "Tesla delivers 1,550 Model 3 sedans and 29,870 total vehicles in fourth quarter",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "tesla",
+        "sentiment": "negative"
+      },
+      {
+        "name": "justin tallis",
+        "sentiment": "negative"
+      }
+    ],
+    "locations": [
+      {
+        "name": "london",
+        "sentiment": "none"
+      },
+      {
+        "name": "westfields",
+        "sentiment": "none"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "tesla",
+        "sentiment": "none"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "Tesla is apparently still deep in the circles of production hell.\nOn Wednesday, the electric car maker released delivery numbers for the fourth quarter of 2017 that fell short of many expectations on Wall Street, and once again pushed production targets on its highly anticipated Model 3 sedan. \nTesla shares fell roughly 2 percent in after-hours trading.\n\"As we continue to focus on quality and efficiency rather than simply pushing for the highest possible volume in the shortest period of time, we expect to have a slightly more gradual ramp through Q1, likely ending the quarter at a weekly rate of about 2,500 Model 3 vehicles,\" Tesla said in a release. \"We intend to achieve the 5,000 per week milestone by the end of Q2.\"\nIn 2017, the company had said it planned to reach a production rate of 5,000 cars per week for the Model 3, but later revised back that target to the end of the first quarter. Now, Tesla expects to reach the target by the end of the second quarter.\nTesla said it delivered 29,870 vehicles in the fourth quarter of 2017, including 1,550 of its anticipated Model 3 sedan. \nThe California-based electric-car maker also delivered 15,200 Model S sedans, and 13,120 Model X SUVs.\nThat compares with 22,200 vehicles in the fourth quarter of 2016, of which 12,700 were Model S and 9,500 were Model X. Total 2016 deliveries were roughly 76,230. There were no Model 3 deliveries in 2016, as the car was not in production yet.\nIn addition to those deliveries, Tesla said there were 2,520 Model S and X vehicles and 860 Model 3 vehicles in transit to customers at the end of the quarter, which Tesla will count as deliveries in Q1 2018. \nTesla said it made \"major progress\" toward addressing the \"production bottlenecks\" the company blamed for falling so far short of its Model 3 targets in the third quarter. \nTesla had said at the end of the third quarter it would deliver about 100,000 Model S and X vehicles in 2017, a 31 percent increase over the previous year. CEO Elon Musk said he expected weekly Model 3 production to be \"in the thousands\" by the end of 2017. \nWall Street estimates varied widely. In a note sent Tuesday, Cowen analyst Jeffrey Osborne estimated a Wall Street consensus 4,000-5,000 Model 3 deliveries in the fourth quarter . But Osborne's own forecast was below that at just 2,250. Oppenheimer analyst Colin Rusch had expected Tesla to deliver just 800 Model 3 cars.\n\"In the 12-month investable time frame our rating contemplates, we see Tesla as a great company led by a true visionary, but must acknowledge the asymmetric risk/reward profile for the stock at the market's current valuation,\" Osborne said in the note. \"Simply, we see a lot more that can go wrong than can go right as the company transitions into Mr. Musk's greater vision as laid out in his Master Plan, Part Deux.\"",
+  "external_links": [],
+  "published": "2018-01-03T23:30:00.000+02:00",
+  "crawled": "2018-01-03T23:35:53.014+02:00",
+  "highlightTitle": ""
+}

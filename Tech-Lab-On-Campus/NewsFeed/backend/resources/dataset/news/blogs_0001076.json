@@ -1,0 +1,63 @@
+{
+  "organizations": [],
+  "uuid": "699024fe4897879c210152d7fd59e66b3b152695",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 0
+      },
+      "facebook": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/01/104923039-2ED1-ASB-JonathanBarratt-010118.600x400.jpg",
+    "site_section": "http://www.cnbc.com/id/10000018/device/rss",
+    "section_title": "China",
+    "url": "https://www.cnbc.com/video/2018/01/01/copper-prices-set-to-continue-gains-in-2018.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "Copper prices set to continue gains in 2018",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-02T01:36:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "699024fe4897879c210152d7fd59e66b3b152695"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/video/2018/01/01/copper-prices-set-to-continue-gains-in-2018.html",
+  "ord_in_thread": 0,
+  "title": "Copper prices set to continue gains in 2018",
+  "locations": [],
+  "entities": {
+    "persons": [],
+    "locations": [],
+    "organizations": []
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "Copper prices set to continue gains in 2018 20 Hours Ago",
+  "external_links": [],
+  "published": "2018-01-02T01:36:00.000+02:00",
+  "crawled": "2018-01-02T04:12:37.021+02:00",
+  "highlightTitle": ""
+}

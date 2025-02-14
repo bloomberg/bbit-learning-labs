@@ -1,0 +1,102 @@
+{
+  "organizations": [],
+  "uuid": "ebbb957cd22833057f06b959685fe767d7126940",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 0
+      },
+      "facebook": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/05/15/105209479-GettyImages-957425524.1910x1000.jpg",
+    "site_section": "",
+    "section_title": "",
+    "url": "https://www.cnbc.com/2018/05/22/trumps-trade-mantra-is-speak-loudly-and-wave-your-stick-around-says-investment-chief.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "Trump’s trade mantra is ‘speak loudly and wave your stick around,’ says investment chief",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 1,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "news",
+    "published": "2018-05-22T03:00:00.000+03:00",
+    "replies_count": 0,
+    "uuid": "ebbb957cd22833057f06b959685fe767d7126940"
+  },
+  "author": "Natasha Turak",
+  "url": "https://www.cnbc.com/2018/05/22/trumps-trade-mantra-is-speak-loudly-and-wave-your-stick-around-says-investment-chief.html",
+  "ord_in_thread": 0,
+  "title": "Trump’s trade mantra is ‘speak loudly and wave your stick around,’ says investment chief",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "trump",
+        "sentiment": "negative"
+      },
+      {
+        "name": "tom finke",
+        "sentiment": "none"
+      },
+      {
+        "name": "donald trump",
+        "sentiment": "none"
+      },
+      {
+        "name": "barings",
+        "sentiment": "none"
+      }
+    ],
+    "locations": [
+      {
+        "name": "beijing",
+        "sentiment": "none"
+      },
+      {
+        "name": "u.s.",
+        "sentiment": "none"
+      },
+      {
+        "name": "china",
+        "sentiment": "none"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "trump",
+        "sentiment": "negative"
+      },
+      {
+        "name": "cnbc",
+        "sentiment": "none"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "Donald Trump's approach to foreign relations has never been subtle. But the president's recent declarations about leveling the trade playing field with China , premised on market competition, are more political than economic, the chief executive of Barings said Tuesday.\n\"It's definitely about voters now and that's where you get the rhetoric,\" Tom Finke, CEO and chairman of the North Carolina-based $304 billion asset management firm, told CNBC's \"Squawk Box Europe.\"\n\"If you think about the industrial revolution when Teddy Roosevelt was president, his mantra was 'speak softly and carry a big stick.' I think Trump's mantra is 'speak loudly and wave your stick around.'\"\nFinke was referring to ongoing U.S. -China negotiations that are taking place this month to ease trade tensions after a tit-for-tat dispute saw both countries threaten tariffs on hundreds of billions of dollars' worth of each other's imports. Trump has long criticized the gaping trade deficit between the U.S. and China, and has zeroed-in on shrinking that gap as the core focus of a broader call for Beijing to reform its international trade practices.\nTriumphant tones came from the White House over the weekend, as Chinese trade officials conceded they would work toward increasing purchases of American goods , particularly in the agriculture and energy sectors.\nBut economists have criticized the announcements , saying they do not amount to concrete measures and that the trade deficit is not nearly as consequential as contentious points like technology security and intellectual property (IP) protection.\nNovember midterms Trump has his eye on the congressional midterm elections in November, where the party of the sitting president traditionally struggles. And pointing to a victory for the trade imbalance, although it misses the full picture, can be easily touted as a win, according to Finke. This particularly targets U.S. farmers and energy producers, a key voting base for the Republican party.\n\"You've got to address the issues of greater IP security, openness to other parts of the market in China,\" Finke said, but added: \"That's harder for the general population to get their head around. Easier to get their head around is the trade imbalance — that's when you get a lot of the sound bytes relative to the farmers. Selling more agriculture to China is the focus, but in the end the future is about technology.\"\nDaniel Acker | Bloomberg | Getty Images Corn is harvested in Sheffield, Illinois. Still, the CEO was confident that Trump had a more comprehensive vision in mind for achieving a fairer relationship with the Beijing, which has long been accused of unfair trade practices including IP theft, unequal market access for foreign investors and preferential subsidies.\n\"Some of this is focused on what's in front of them politically, but also I do think there is a commitment to doing deals, period. He's a dealmaker, he wants to do deals,\" Finke said. \"I think the process there is somewhat painful because it moves around a lot, and I think that's where we are with trade.\"\nNot all observers have been so positive, however. Moody's Chief Economist Mark Zandi told CNBC on Monday that the current talks, as they're going, were nothing more than a \"silly debate argument\" with no specifics and no wins for either side, as the U.S. simply doesn't have enough to export to China in order to satisfy the Trump administration's trade figure demands.\nThe voices from the U.S. trade community have largely been advising caution with the Chinese, arguing that deeper structural issues beyond the deficit figures must be dealt with if the U.S. is to get a good and lasting deal.",
+  "external_links": [],
+  "published": "2018-05-22T03:00:00.000+03:00",
+  "crawled": "2018-05-22T14:35:13.008+03:00",
+  "highlightTitle": ""
+}

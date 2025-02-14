@@ -1,0 +1,102 @@
+{
+  "organizations": [],
+  "uuid": "ba6b770649cb799d42ced5a74b38f1fac4b295a2",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 5
+      },
+      "facebook": {
+        "likes": 6,
+        "shares": 6,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2015/09/30/103039927-RTS2FLL.1910x1000.jpg",
+    "site_section": "http://www.cnbc.com/id/19746125/device/rss/rss.xml",
+    "section_title": "Top News and Analysis (pro)",
+    "url": "https://www.cnbc.com/2018/01/03/brazils-petrobras-to-settle-us-class-action-lawsuit-over-corruption.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "UPDATE 1-Petrobras to pay $2.95 bln to settle U.S. class action over corruption",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-03T12:37:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "ba6b770649cb799d42ced5a74b38f1fac4b295a2"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/03/brazils-petrobras-to-settle-us-class-action-lawsuit-over-corruption.html",
+  "ord_in_thread": 0,
+  "title": "UPDATE 1-Petrobras to pay $2.95 bln to settle U.S. class action over corruption",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "jed rakoff",
+        "sentiment": "none"
+      }
+    ],
+    "locations": [
+      {
+        "name": "u.s.",
+        "sentiment": "none"
+      },
+      {
+        "name": "brazil",
+        "sentiment": "none"
+      },
+      {
+        "name": "brasilia",
+        "sentiment": "none"
+      },
+      {
+        "name": "united states",
+        "sentiment": "none"
+      },
+      {
+        "name": "manhattan",
+        "sentiment": "none"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "reuters",
+        "sentiment": "negative"
+      },
+      {
+        "name": "petrobras",
+        "sentiment": "negative"
+      },
+      {
+        "name": "petroleo brasileiro",
+        "sentiment": "none"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "SHARES Ueslei Marcelino | Reuters A worker paints a tank of Brazil's state-run Petrobras oil company in Brasilia, Brazil September 30, 2015. \nBrazil's state-controlled oil company, Petroleo Brasileiro, said on Wednesday that it has agreed to pay $2.95 billion to settle a U.S. class action brought by investors who claim they lost money as a result of a corruption scandal. \nPetrobras, as the company is known, denied any wrongdoing under the deal, which is one of the largest securities class action settlements in the United States. U.S. District Judge Jed Rakoff in Manhattan must approve the settlement. \nThe company said the settlement will be paid in three roughly equal installments and will affect fourth-quarter results. \nInvestors sued Petrobras after prosecutors in Brazil accused former executives at the company of accepting more than $2 billion in bribes over a decade, mainly from construction and engineering companies. \nPetrobras claimed it was itself a victim, and it expressly denied wrongdoing in a securities filing on Wednesday. But its market value has plunged as the so-called Lava Jato or \"car wash\" corruption scandal has deepened. \nPetrobras said that it hoped the settlement would resolve all investor claims in the United States over the scandal. \nThe deal does not include investors who bought non-U.S.-based Petrobras securities outside the United States, according to the company. \nThe deal came just days after Brazil's securities regulator CVM formally accused eight former Petrobras executives of corruption. \nAccording to a legal filing by the regulator on Friday, the accusations relate to possible irregularities in the contracting process for three drill ships. \nAmong the accused in CVM's filing are former Petrobras chief executives Maria das Gracas Foster and Jose Sergio Gabrielli. \nThe largest securities fraud settlements in U.S. history include $7.2 billion stemming from the collapse of Enron, $6.2 billion over an accounting scandal at WorldCom and $3.2 billion over an accounting scandal at Tyco International, according to Stanford Law School's Securities Class Action Clearinghouse.",
+  "external_links": [],
+  "published": "2018-01-03T12:37:00.000+02:00",
+  "crawled": "2018-01-03T13:21:11.008+02:00",
+  "highlightTitle": ""
+}

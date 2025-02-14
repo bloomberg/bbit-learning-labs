@@ -1,0 +1,110 @@
+{
+  "organizations": [],
+  "uuid": "c8114fb5243bce23c3daac39f9a38db35d12ee97",
+  "thread": {
+    "social": {
+      "gplus": {
+        "shares": 0
+      },
+      "pinterest": {
+        "shares": 0
+      },
+      "vk": {
+        "shares": 0
+      },
+      "linkedin": {
+        "shares": 0
+      },
+      "facebook": {
+        "likes": 0,
+        "shares": 0,
+        "comments": 0
+      },
+      "stumbledupon": {
+        "shares": 0
+      }
+    },
+    "site_full": "www.cnbc.com",
+    "main_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/11/14/104841268-GettyImages-634293218.1910x1000.jpg",
+    "site_section": "http://www.cnbc.com/id/19746125/device/rss/rss.xml",
+    "section_title": "Top News and Analysis (pro)",
+    "url": "https://www.cnbc.com/2018/01/03/the-off-price-sector-long-retails-favorite-could-be-losing-steam.html",
+    "country": "US",
+    "domain_rank": 767,
+    "title": "The off-price sector, long retail's favorite, could be losing steam in 2018",
+    "performance_score": 0,
+    "site": "cnbc.com",
+    "participants_count": 0,
+    "title_full": "",
+    "spam_score": 0,
+    "site_type": "blogs",
+    "published": "2018-01-03T18:18:00.000+02:00",
+    "replies_count": 0,
+    "uuid": "c8114fb5243bce23c3daac39f9a38db35d12ee97"
+  },
+  "author": "",
+  "url": "https://www.cnbc.com/2018/01/03/the-off-price-sector-long-retails-favorite-could-be-losing-steam.html",
+  "ord_in_thread": 0,
+  "title": "The off-price sector, long retail's favorite, could be losing steam in 2018",
+  "locations": [],
+  "entities": {
+    "persons": [
+      {
+        "name": "ike boruchow",
+        "sentiment": "none"
+      },
+      {
+        "name": "tj maxx",
+        "sentiment": "none"
+      },
+      {
+        "name": "bo",
+        "sentiment": "none"
+      }
+    ],
+    "locations": [
+      {
+        "name": "florida",
+        "sentiment": "none"
+      },
+      {
+        "name": "miami",
+        "sentiment": "none"
+      },
+      {
+        "name": "burlington",
+        "sentiment": "none"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "t.j. maxx",
+        "sentiment": "negative"
+      },
+      {
+        "name": "tjx",
+        "sentiment": "none"
+      },
+      {
+        "name": "wells fargo",
+        "sentiment": "none"
+      },
+      {
+        "name": "ross stores",
+        "sentiment": "none"
+      },
+      {
+        "name": "amazon",
+        "sentiment": "none"
+      }
+    ]
+  },
+  "highlightText": "",
+  "language": "english",
+  "persons": [],
+  "text": "Retail's darling could be in trouble in the new year.\nAs shoppers have flocked to off-price stores like TJ Maxx and Marshalls for a less-expensive, one-stop shopping fix, sales mushroomed and put added pressure on America's department stores.\nFor much of 2017, Wall Street cheered the unique \"treasure hunt\" experience these stores provide, saying the model is largely \"Amazon proof\" and difficult to replicate online.\nThat said, soaring sales in the sector may be slowing, according to Wells Fargo analyst Ike Boruchow. In a Wednesday note to clients he wrote that TJX (owner of TJ Maxx, HomeGoods and Marshalls), Ross Stores and Burlington could see lower sales in the fourth quarter and into fiscal 2018.\nWells Fargo downgraded shares of TJX to market perform and cut its price target to $72 from $76. The stock closed Tuesday at $76.69, having climbed a little more than 7 percent over the past six months. TJX shares were falling around 2 percent late Wednesday morning.\nWells Fargo's price targets for Ross and Burlington were left unchanged, but both stocks were also trading modestly lower Wednesday.\nBoruchow explained that talks with other brands are fueling his expectations that there could be a slowdown in the off-price sector's momentum in the coming months.\n\"The issue for TJX, relative to ROST and BURL, is size (they are multiples larger and carry many more brands),\" he wrote. However, the \"off-price setup from here could become 'less good' relative to the past 2 years.\"\nOther industry consultants have chimed in, saying it's true these companies could be bracing for some deceleration.\n\"I do think [off-price retailers] lose a little steam as they will generally have some of the most difficult comparisons going of any retail segment in 2018,\" Retail Metrics founder Ken Perkins told CNBC.\nThen, some shoppers might \"trade up\" to new stores as the economy improves, he added, but the impact there should only be \"marginal.\"\nOthers are still cheering on the stocks, though, and think TJX in particular could continue to gain market share as department stores shutter lcoations. Cowen and Co. analyst Oliver Chen is calling the company his \"best idea for 2018,\" based on the fact that customers still appreciate TJX's \"deep value.\"\n\"As most of traditional retail contracts their store bases and right-sizes their organizations to better fit the new normal of lower revenue bases, TJX sees significant white space ahead in terms of store growth,\" Chen wrote.\nGrowing at such a rapid clip (and recently launching a new brand, Homesense) could be a smart move for TJX, where others are cutting back, but some remain wary the expansion could come back to haunt the company.",
+  "external_links": [],
+  "published": "2018-01-03T18:18:00.000+02:00",
+  "crawled": "2018-01-03T18:25:13.047+02:00",
+  "highlightTitle": ""
+}
