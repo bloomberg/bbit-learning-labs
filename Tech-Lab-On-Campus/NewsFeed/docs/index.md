@@ -45,13 +45,14 @@ By participating in this tech lab, students will:
 
 To get started with the project, follow these steps:
 
-#### Clone the Repository
+#### Fork and Clone the Project Repository
 
-Fork this repository, clone the forked repo into your working directory, and navigate to it:
+1. Fork the project repository: https://github.com/bloomberg/bbit-learning-labs.git
 
-```bash
-    git clone https://github.com/your-repo/blit-tech-lab-hackathon.git
-    cd blit-tech-lab-hackathon
+2. Clone the forked repo into your working directory, and navigate to it:
+``` sh
+git clone https://github.com/YOUR-USERNAME/bbit-learning-labs.git
+cd Tech-Lab-On-Campus/NewsFeed
 ```
 
 #### Open the Development Container
