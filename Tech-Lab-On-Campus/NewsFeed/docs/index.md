@@ -43,6 +43,11 @@ By participating in this tech lab, students will:
 
 ## Getting Started
 
+#### Prerequisites
+- Docker
+- Git
+- VS Code (or any IDE that you prefer)
+
 To get started with the project, follow these steps:
 
 #### Fork and Clone the Project Repository

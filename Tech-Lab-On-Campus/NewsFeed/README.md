@@ -43,6 +43,11 @@ By participating in this tech lab, students will:
 
 ## Getting Started
 
+#### Prerequisites
+- Docker
+- Git
+- VS Code (or any IDE that you prefer)
+
 To get started with the project, follow these steps:
 
 #### Fork and Clone the Project Repository
@@ -51,7 +56,7 @@ To get started with the project, follow these steps:
 
 2. Clone the forked repo into your working directory, and navigate to it:
 ``` sh
-git clone https://github.com/YOUR-USERNAME/bbit-learning-labs.git 
+git clone https://github.com/YOUR-USERNAME/bbit-learning-labs.git
 cd Tech-Lab-On-Campus/NewsFeed
 ```
 
