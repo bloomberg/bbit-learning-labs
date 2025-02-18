@@ -43,11 +43,14 @@ By participating in this tech lab, students will:
 
 ## Getting Started
 
+[Tech Lab Documentation](https://bloombergtechlab.github.io/bbit-learning-labs/)
+
 #### Prerequisites
 - Docker
 - Git
 - VS Code
 - VS Code Dev Containers extension
+
 
 To get started with the project, follow these steps:
 
