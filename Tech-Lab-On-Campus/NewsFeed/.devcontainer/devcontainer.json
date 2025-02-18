@@ -31,4 +31,3 @@
     },
     "postCreateCommand": ["make", "install"]
 }
-  
