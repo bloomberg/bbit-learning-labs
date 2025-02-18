@@ -46,7 +46,8 @@ By participating in this tech lab, students will:
 #### Prerequisites
 - Docker
 - Git
-- VS Code (or any IDE that you prefer)
+- VS Code
+- VS Code Dev Containers extension
 
 To get started with the project, follow these steps:
 
