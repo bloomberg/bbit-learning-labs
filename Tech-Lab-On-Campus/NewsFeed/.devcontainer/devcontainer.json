@@ -1,5 +1,5 @@
 {
-    "name": "Blit Tech Lab",
+    "name": "Tech Lab On Campus",
     "dockerComposeFile": ["../docker-compose.yml"],
     "service": "dev",
     "workspaceFolder": "/workspace",
