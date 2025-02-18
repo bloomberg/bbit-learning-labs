@@ -1,0 +1,33 @@
+{
+    "name": "NewsFeed",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "dev",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "python.mypy-type-checker",
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "eamodio.gitlens",
+          "vscode-icons-team.vscode-icons"
+        ]
+      },
+      "settings": {
+        "files.insertFinalNewline": true,
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "python.formatting.provider": "ruff",
+        "python.linting.mypyEnabled": true,
+        "editor.formatOnSave": true,
+        "[python]": {
+          "editor.defaultFormatter": "charliermarsh.ruff",
+          "editor.defaultLinter": "mypy-type-checker"
+        },
+        "[typescript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+      }
+    },
+    "postCreateCommand": ["make", "install"]
+}

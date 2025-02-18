@@ -7,9 +7,11 @@ FLASK_PORT    = 8000
 help:
 	@echo "Usage:"
 	@echo "    help            - Prints this screen"
+	@echo "    fmt-backend     - Make the formatting changes directly to the backend code"
 	@echo "    install         - Install all frontend and backend dependencies"
-	@echo "    lint-backend    - Make the formatting changes directly to the backend code"
 	@echo "    lint-backend    - Lints the backend code"
+	@echo "    redis-in-docker - Runs redis in a docker container"
+	@echo "    run     		   - Run both the backend and frontend"
 	@echo "    run-backend     - Run the development version of the backend flask app"
 	@echo "    run-frontend    - Run the frontend version of this application"
 	@echo "    clean           - Clean out temporaries"
@@ -33,6 +35,10 @@ run-backend:
 lint-backend:
 	$(PYTHON) -m ruff check
 	$(PYTHON) -m mypy backend/app --show-error-codes
+
+.PHONY: redis-in-docker
+redis-in-docker:
+	docker compose up -d redis
 
 .PHONY: run-frontend
 run-frontend:

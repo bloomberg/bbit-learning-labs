@@ -1,2 +1,12 @@
 .vscode
+
+# Python
 *.pyc
+__pycache__/
+
+# Node
+node_modules/
+
+# NextJS
+next-env.d.ts
+.next/
