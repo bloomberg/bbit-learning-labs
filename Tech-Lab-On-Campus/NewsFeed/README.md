@@ -56,8 +56,7 @@ To get started with the project, follow these steps:
 
 #### Fork and Clone the Project Repository
 
-1. Fork the project repository: https://github.com/bloomberg/bbit-learning-labs.git
-
+1. Fork the project repository
 2. Clone the forked repo into your working directory, and navigate to it:
 ``` sh
 git clone https://github.com/YOUR-USERNAME/bbit-learning-labs.git
