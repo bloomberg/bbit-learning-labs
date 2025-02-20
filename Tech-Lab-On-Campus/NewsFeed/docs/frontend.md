@@ -1,6 +1,6 @@
 ## Create Frontend of News Feed Website
 
-You are tasked with populating the frontend of a news feed webpage which is going to display news articles. You will populate a _Featured News_ section as well as a _News Feed_ Section. You will take advantage of reusable components in React (read more [here](https://www.freecodecamp.org/news/how-to-build-reusable-react-components/)). After that, you will connect the frontend to the backend in order to get data from the api your backend partner built.
+You are tasked with populating the frontend of a news feed webpage which is going to display news articles. You will populate a _Featured News_ section as well as a _News Feed_ Section. You will take advantage of reusable components in [React](https://react.dev/learn). After that, you will connect the frontend to the backend in order to get data from the api your backend partner built.
 
 ### Hints
 
@@ -16,7 +16,9 @@ In `frontend/src/components/FeaturedNews.tsx` implement the component that will 
     1. The featured article's title
     1. The featured article's image
     1. A portion of the selected article's body, truncated so that it fits nicely in the section
+
 Once completing Part 1, Once completing this part, you should be able to see the Featured News Article at the top of the page.
+For more information on how to create a component, refer to the [react basics](./resources/react-basics.md) docs.
 
 
 ### Part 2 : Create a reusable news card to use with general stories
@@ -26,6 +28,7 @@ In `frontend/src/components/NewsCard.tsx` implement a reusable news card compone
     1. The article's title
     1. The article's image
     1. A truncated version of the article's body
+
 This component should be reusable so that it can be used to populate all stories on the news page.
 Once completing Part 2, you should be able to see a few test articles on the right side of the screen.
 
@@ -43,9 +46,8 @@ In `frontend/src/pages/news.tsx` fetch article data from the API call. The Featu
 * Fetch the featured article from `/api/news/get-featured-article`
 * Fetch the news feed data from `/api/news/get-newsfeed`
 * Use the `set` functions defined above to update the `articles` and `featuredArticle` variables
+
 Once completing Part 4, you should be able to see news articles different from the dummy data originally provided.
-
-
 
 ### Stretch Goals
 You now have a news feed up and running connected to a backend service! You can follow up with some of the following optimizations if interested.
