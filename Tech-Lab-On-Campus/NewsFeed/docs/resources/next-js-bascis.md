@@ -47,3 +47,5 @@ To get started with Next.js, follow these steps:
 
 6. **Visit the new page:** Open `http://localhost:3000/about` in your browser to see the new page.
 
+
+For more information on how Next works, visit the [official docs](https://nextjs.org/docs/pages/building-your-application).
