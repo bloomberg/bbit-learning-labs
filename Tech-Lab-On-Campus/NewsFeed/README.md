@@ -60,16 +60,17 @@ To get started with the project, follow these steps:
 2. Clone the forked repo into your working directory, and navigate to it:
 ``` sh
 git clone https://github.com/YOUR-USERNAME/bbit-learning-labs.git
-cd Tech-Lab-On-Campus/NewsFeed
+cd bbit-learning-labs/Tech-Lab-On-Campus/NewsFeed
 ```
 
 #### Open the Development Container
 
 1. Open VSCode
 2. Install the Dev Containers extension [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). If you already have it installed, continue to the next step.
-3. Open up the Command Palette in VSCode by either Ctrl+Shift+P (Windows) or Cmd+Shift+P (Mac) and type Dev Containers.
-4. Click on Dev Containers: Reopen in Container
-5. VSCode will start downloading some docker images and install the necessary python and npm packages
+3. Open the `bbit-learning-labs/Tech-Lab-On-Campus/NewsFeed` folder through VS Code
+4. Open up the Command Palette in VSCode by either Ctrl+Shift+P (Windows) or Cmd+Shift+P (Mac) and type Dev Containers.
+5. Click on Dev Containers: Reopen in Container
+6. VSCode will start downloading some docker images and install the necessary python and npm packages
 
 #### Run the Website
 
