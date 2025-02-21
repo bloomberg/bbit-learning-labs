@@ -12,7 +12,7 @@ React is a popular JavaScript library for building user interfaces. Developed by
 
 ### 1. Components
 Components are the building blocks of a React application. They can be:
-- **Functional Components**: Defined as JavaScript functions.
+- **Functional Components (Recommended)**: Defined as JavaScript functions.
 - **Class Components**: Defined as ES6 classes.
 
 Example of a Functional Component:
@@ -26,16 +26,45 @@ export default Greeting;
 
 ### 2. JSX
 
-JSX (JavaScript XML) allows you to write HTML-like syntax in JavaScript.
+JSX (JavaScript XML) allows you to write HTML-like syntax in JavaScript. It is typically the return of the functional
+component.
 
 Example:
 ```jsx
-const element = <h1>Welcome to React!</h1>;
+
+function foo(): JSX.Element { // The return type for custom React components is typically JSX
+  const element = <h1>Welcome to React!</h1>;
+  return element;
+}
 ```
+
+It is possible to inject Javascript/dynamic content into JSX using `{}` as a wrapper.
+
+**NOTE: If/Else statements are not usable in the JSX section, instead use a ternary operator ( bool ? true : false) or**
+**use a callback function to render what you need.**
+
+Examples:
+```jsx
+// Working example
+import React from 'react';
+
+export default function Counter(props: { count }) {
+  return (
+    <div>
+      {/* Inlined javascript variable count (and comment) */}
+      {props.count > 10 ? <p>Count: {count}</p> : <p>Max count (10) reached!<p/>}
+      <button onClick={() => setCount(count + 1)}>Increment</button> {/* Callback function that adds to the count */}
+    </div>
+  );
+}
+```
+
+See more at the [react docs](https://react.dev/learn/writing-markup-with-jsx).
 
 ### 3. Props
 
-Props (short for properties) are used to pass data from parent to child components.
+Props (short for properties), are used to pass data from parent to child components. Props are objects that can contain
+any data you need to pass down.
 
 Example:
 ```jsx
@@ -68,17 +97,17 @@ function Counter() {
 export default Counter;
 ```
 
-### 5. Lifecycle Methods
+### 5. Component
 
-Class components use lifecycle methods to manage behavior during mounting, updating, and unmounting phases.
+Components follow a lifecycle to manage behavior at various stages, mainly the mounting, updating, and unmounting phases.
 
-Key methods:
+Key stages:
 * `componentDidMount`
 * `componentDidUpdate`
 * `componentWillUnmount`
 
 Example:
-```
+```jsx
 class App extends React.Component {
   componentDidMount() {
     console.log('Component Mounted');
@@ -89,6 +118,10 @@ class App extends React.Component {
   }
 }
 ```
+
+This is now managed via functional components and the use of states and hooks, but understanding the lifecycle is helpful
+to resolve bad rendering and understanding rendering logic.
+
 
 ## Advantages
 * Reusable Components: Break UI into reusable and modular pieces.
@@ -128,3 +161,8 @@ npm start
 3. Interactive UIs: Handle user input and update views in real-time.
 4. Mobile Development: Extend with React Native for mobile apps.
 
+
+## Additional Resources
+1. [React docs](https://react.dev/learn)
+2. [Writing HTML with JSX](https://react.dev/learn/writing-markup-with-jsx)
+3. [React hooks](https://react.dev/reference/react/hooks)
