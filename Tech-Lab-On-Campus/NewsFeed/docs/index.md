@@ -79,13 +79,13 @@ cd Tech-Lab-On-Campus/NewsFeed
 ✨ You should now be ready to develop! ✨
 
 #### Issues with Docker 
-If you are encountering issues with docker and cannot find the root cause, you can use codespaces on Github:
+If you are encountering issues with docker, you can use Github codespaces instead:
 
 1. Fork the repo 
 2. Navigate to the forked repo 
 3. Click on the green `< > Code` button 
 4. Select the Codespaces tab and click on the `+` button 
-5. cd into `Tech-Lab-On-Campus/NewsFeed/`
+5. In codespaces, open a new terminal and run `cd Tech-Lab-On-Campus/NewsFeed/`
 6. run `make install`
 7. run `make redis-in-docker`
 8. run `make run-backend`
