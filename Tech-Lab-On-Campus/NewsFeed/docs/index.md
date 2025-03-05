@@ -78,6 +78,21 @@ cd Tech-Lab-On-Campus/NewsFeed
 
 ✨ You should now be ready to develop! ✨
 
+#### Issues with Docker 
+If you are encountering issues with docker, you can use Github codespaces instead:
+
+1. Fork the repo 
+2. Navigate to the forked repo 
+3. Click on the green `< > Code` button 
+4. Select the Codespaces tab and click on the `+` button 
+5. In codespaces, open a new terminal and run `cd Tech-Lab-On-Campus/NewsFeed/`
+6. run `make install`
+7. run `make redis-in-docker`
+8. run `make run-backend`
+9. Open up a new terminal and run `make run-frontend` 
+10. A pop up should appear saying that port 3000 is in use. Click on `Open in Browser`. If not, the link can be opened from the terminal window 
+
+
 ## Resources
 
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
