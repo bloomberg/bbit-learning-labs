@@ -5,7 +5,6 @@ nav:
   - Frontend: frontend.md
   - Interview Question Prompt: api-question-prompt.md
   - Resources:
-    - Overview: resources/resources.md
     - Git Basics: resources/git-basics.md
     - Docker Basics: resources/docker-basics.md
     - Python Basics: resources/python-basics.md

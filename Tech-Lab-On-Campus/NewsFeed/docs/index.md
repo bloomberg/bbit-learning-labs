@@ -6,14 +6,14 @@ This tech lab is inspired by the real-world applications and technologies used a
 
 ## Project Overview
 
-Students will work on creating a web application that involves both frontend and backend development. The frontend will be built using React, while the backend will be implemented using Flask. Redis will be used for data caching, and Docker will be utilized to containerize the application for easy deployment.
+Students will work on creating a web application that involves both frontend and backend development. The frontend will be built using React, while the backend will be implemented using Flask. Redis will be used for data storage, and Docker will be utilized to containerize the application for easy deployment.
 
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
 - **Flask**: A lightweight WSGI web application framework in Python.
-- **Redis**: An in-memory data structure store, used as a database
-- **Docker**: A platform for developing, shipping, and running applications in containers.
+- **Redis**: An in-memory data structure store, used as a data store.
+- **Docker**: A platform for developing, shipping, and running applications in standardized containers.
 
 ## Learning Objectives
 
@@ -26,50 +26,48 @@ By participating in this tech lab, students will:
 
 ## Project Tasks
 
+### Backend (Flask)
+
+- Develop APIs to handle data requests and responses.
+- Integrate Redis for storing data to improve performance.
+
 ### Frontend (React)
 
 - Create a user interface to display data retrieved from the backend.
 - Implement forms and components to interact with the backend APIs.
 
-### Backend (Flask)
-
-- Develop APIs to handle data requests and responses.
-- Integrate Redis for caching data to improve performance.
-
-### Docker
-
-- Containerize the React and Flask applications.
-- Set up Docker Compose to manage multi-container applications.
-
 ## Getting Started
 
-#### Prerequisites
+### Prerequisites
 
-- Docker
-- Git
-- VS Code
-- VS Code Dev Containers extension
+Make sure the following technologies are downloaded prior to starting:
+
+- [Docker](https://docs.docker.com/desktop/)
+- [Git](https://git-scm.com/downloads)
+- [VS Code](https://code.visualstudio.com/)
+- [VS Code Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 To get started with the project, follow these steps:
 
-#### Fork and Clone the Project Repository
+### Fork and Clone the Project Repository
 
 1. Fork the project repository
 2. Clone the forked repo into your working directory, and navigate to it:
 ``` sh
 git clone https://github.com/YOUR-USERNAME/bbit-learning-labs.git
-cd Tech-Lab-On-Campus/NewsFeed
+cd bbit-learning-labs/Tech-Lab-On-Campus/NewsFeed
 ```
 
-#### Open the Development Container
+### Open the Development Container
 
 1. Open VSCode
 2. Install the `Dev Containers` extension [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). If you already have it installed, continue to the next step.
 3. Open up the Command Palette in VSCode by either `Ctrl+Shift+P` (Windows) or `Cmd+Shift+P` (Mac) and type `Dev Containers`.
+VS Code may also show a pop up requesting to repoen in container, you can also click this.
 4. Click on `Dev Containers: Reopen in Container`
 5. VSCode will start downloading some docker images and install the necessary python and npm packages
 
-#### Run the Website
+### Run the Website
 
 1. Open up a new terminal window, you can use `` Ctrl+Shift+` ``
 2. In the terminal, run `make run-backend` to run the backend
@@ -78,20 +76,26 @@ cd Tech-Lab-On-Campus/NewsFeed
 
 ✨ You should now be ready to develop! ✨
 
-#### Issues with Docker 
+### Developing
+
+- [Backend Tasks](./backend.md)
+- [Frontend Tasks](./frontend.md)
+
+## Troubleshooting
+
+### Issues with Docker
 If you are encountering issues with docker, you can use Github codespaces instead:
 
-1. Fork the repo 
-2. Navigate to the forked repo 
-3. Click on the green `< > Code` button 
-4. Select the Codespaces tab and click on the `+` button 
+1. Fork the repo
+2. Navigate to the forked repo
+3. Click on the green `< > Code` button
+4. Select the Codespaces tab and click on the `+` button
 5. In codespaces, open a new terminal and run `cd Tech-Lab-On-Campus/NewsFeed/`
 6. run `make install`
 7. run `make redis-in-docker`
 8. run `make run-backend`
-9. Open up a new terminal and run `make run-frontend` 
-10. A pop up should appear saying that port 3000 is in use. Click on `Open in Browser`. If not, the link can be opened from the terminal window 
-
+9. Open up a new terminal and run `make run-frontend`
+10. A pop up should appear saying that port 3000 is in use. Click on `Open in Browser`. If not, the link can be opened from the terminal window
 
 ## Resources
 
