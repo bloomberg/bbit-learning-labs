@@ -31,7 +31,7 @@ By participating in this tech lab, students will:
 - Develop APIs to handle data requests and responses.
 - Integrate Redis for storing data to improve performance.
 
-### Frontend (React)
+### Frontend (NextJS/React)
 
 - Create a user interface to display data retrieved from the backend.
 - Implement forms and components to interact with the backend APIs.
@@ -69,9 +69,20 @@ VS Code may also show a pop up requesting to repoen in container, you can also c
 
 ### Run the Website
 
-1. Open up a new terminal window, you can use `` Ctrl+Shift+` ``
+All of the `make` commands should be run from the Newfeed folder (using the `cd bbit-learning-labs/Tech-Lab-On-Campus/NewsFeed`
+command from above should have placed you in the right folder). You can also simplify your workspace by simply opening
+the Newsfeed folder in VS Code. To check that you are in the right folder on your computer terminal:
+
+1. Run `pwd`
+2. Verify that is says `/local/path/to/bbit-learning-labs/Tech-Lab-On-Campus/NewsFeed`, where "/local/path/to" is your
+local computers path to the bbit-learning-labs folder you cloned. An example of this would be: "/user/USERNAME/Downloads",
+but this will vary from person to person.
+
+To get the web app up and running:
+
+1. Open up a new **VS Code terminal window**, you can use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>`</kbd>
 2. In the terminal, run `make run-backend` to run the backend
-3. Open up another new terminal window, you can use `` Ctrl+Shift+` `` again
+3. Open up another new terminal window, you can use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>`</kbd> again
 4. In the terminal, run `make run-frontend` to run the frontend
 
 ✨ You should now be ready to develop! ✨
@@ -97,11 +108,19 @@ If you are encountering issues with docker, you can use Github codespaces instea
 9. Open up a new terminal and run `make run-frontend`
 10. A pop up should appear saying that port 3000 is in use. Click on `Open in Browser`. If not, the link can be opened from the terminal window
 
+### Starting Frontend
+
+- Clicking on http://localhost:3000 in the terminal opens to a blank page in the browser?
+    - Make sure you have done `make run` from the NewsFeed folder (where the Makefile is)
+    - It will probably have opened to 0.0.0.0:3000, just rewrite the url to localhost:3000 in the browser and it should load.
+- npm packages are not loading
+    - If you are a bloomberg engineer, try turning off bbpvn while dev container sets up
+    - Otherwise, try running make clean or deleting any package.json or node_module directories and running:
+    `npm install` from within the `./frontend` folder. (Can reach via `cd frontend`)
+    - If this does not work, try to open in codespaces, see [issues with docker](#issues-with-docker) section above.
+
 ## Resources
 
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
-- [Redis Documentation](https://redis.io/documentation)
-- [Docker Documentation](https://docs.docker.com/)
+- [Resources](./resources/)
 
 We hope you enjoy this learning experience and look forward to seeing your innovative solutions!

@@ -7,6 +7,7 @@ You are tasked with populating the frontend of a news feed webpage which is goin
 - **Hint 1:** Some classes included in `frontend/src/styles/globals.css` may help with styling.
 - **Hint 2:** [Array.map()]((https://www.geeksforgeeks.org/typescript-array-map-method/)) may be useful.
 - **Hint 3:** This [Medium blog](https://medium.com/@bhanu.mt.1501/api-calls-in-react-js-342a09d5315f) may be useful to figure how to fetch data.
+- **Hint 4:** The relevant resources can be found from [resources](./resources/overview.md).
 
 ## Part 1 : Display a Featured News Article
 In `frontend/src/components/FeaturedNews.tsx` implement the component that will display the featured news article.
