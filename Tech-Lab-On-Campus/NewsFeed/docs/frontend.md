@@ -4,7 +4,7 @@ You are tasked with populating the frontend of a news feed webpage which is goin
 
 ## Hints
 
-- **Hint 1:** Some classes included in `frontend/src/styles/globals.css` may help with styling.
+- **Hint 1:** Some classes included in `frontend/src/styles/globals.css` may help with styling. Read [HTML Basics](./resources/html-basics.md) for more details on how to use them.
 - **Hint 2:** [Array.map()]((https://www.geeksforgeeks.org/typescript-array-map-method/)) may be useful.
 - **Hint 3:** This [Medium blog](https://medium.com/@bhanu.mt.1501/api-calls-in-react-js-342a09d5315f) may be useful to figure how to fetch data.
 - **Hint 4:** The relevant resources can be found from [resources](./resources/overview.md).
@@ -52,4 +52,3 @@ You now have a news feed up and running connected to a backend service! You can 
 
 - **Responsiveness:** a website typically adjusts itself to fit the screen it is being displayed on in order to make it most presentable to the end user. Play around with the layout and responsive properties to find the best experience.
 - **Styling:** this is a pretty plain website that we have so far. Are there any styling properties or elements you can add to make it look more like a news website? Look at [Bloomberg News](https://www.bloomberg.com) for inspo!
-- **[Deploy to Heroku](https://github.com/marketplace/actions/deploy-to-heroku):** You have a full website now, which you can deploy to heroku to use as part of your portfolio!
