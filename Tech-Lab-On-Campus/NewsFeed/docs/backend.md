@@ -7,6 +7,7 @@ You are tasked to get news articles from Redis Cache. You will be implementing t
 * **Hint 2:** In order to get the articles, look at how the data is written into Redis in `backend/app/__init__.py`.
 * **Hint 3**: You can test the backend / API changes without the frontend code! Run `localhost:8000/{endpoint}`.
 - **Hint 4:** The relevant resources can be found from [resources](./resources/overview.md).
+- **Hint 5:** You will have to parse a datetime returned from Redis. Heres a useful [resource](https://docs.python.org/3/library/datetime.html#datetime.date.fromisoformat).
 
 ## Part 1: Write a function to Format Data
 In `backend/app/newsfeed.py`, implement a private method that can format the data into an article object. Check a json file in `backend/app/resources/dataset/news` to retrieve necessary information to create an article object.
@@ -24,8 +25,6 @@ Once you finish `get_all_news`, implement `get_newsfeed` function in the `backen
 In `backend/app/newsfeed.py`, implement the `get_featured_news` method. You should:
 
 * Get all the articles
-* Sort the articles by most recent published date and return the list
+* Sort the articles by most recent published date and return the most recent article
 
 Once you finish `get_featured_news`, implement `get_featured_article` function in the `backend/app/__init__.py` for the API. You should be able to utilize the function you implemented above.
-
-

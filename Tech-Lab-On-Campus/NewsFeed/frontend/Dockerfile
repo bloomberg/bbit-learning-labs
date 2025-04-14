@@ -6,7 +6,7 @@ COPY package*.json ./
 
 RUN npm install
 
+# Remove build step for development
 COPY . .
-RUN npm run build
 
 CMD ["npm", "run", "dev"]

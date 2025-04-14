@@ -4,21 +4,53 @@ services:
     hostname: redis
     ports:
       - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - BACKEND_API_URL=http://backend:8000
+    command: npm run dev
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/workspace/backend
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - FLASK_APP=backend/app
+      - FLASK_ENV=development
+    depends_on:
+      redis:
+        condition: service_healthy
+    command: python -m flask run --host=0.0.0.0 --port=8000 --debug
 
   dev:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
-      - "8000:8000"
+    volumes:
+      - .:/workspace
     init: true
     tty: true
     depends_on:
+      - frontend
+      - backend
       - redis
-    environment:
-      - REDIS_HOST=redis
-      - REDIS_PORT=6379
-    volumes:
-      - .:/workspace
     command: /bin/bash

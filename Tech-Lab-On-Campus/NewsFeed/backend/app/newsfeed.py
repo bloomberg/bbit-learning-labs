@@ -24,8 +24,8 @@ def get_all_news() -> list[Article]:
     return []
 
 
-def get_featured_news() -> Article | None:
+def get_featured_article() -> Article | None:
     """Get the featured news article from the datastore."""
-    # 1. Get all the articles
-    # 2. Return as a list of articles sorted by most recent date
+    # 1. Get all the articles and sort by most recent
+    # 2. Return the most recent article
     return None
