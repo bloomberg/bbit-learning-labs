@@ -1,11 +1,12 @@
 FROM python:3.12-slim
 
-WORKDIR /app
+WORKDIR /workspace/backend
 
 COPY . .
 
 # Ensure the resources directory is copied
-COPY ./resources ./resources
+# COPY ./resources ./resources
+# COPY resources/ /resources/
 
 RUN --mount=type=cache,target=/root/.cache \
     python3.12 -m pip install -U pip && \
