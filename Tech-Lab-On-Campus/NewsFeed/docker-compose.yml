@@ -19,6 +19,7 @@ services:
     environment:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
+      - BACKEND_API_URL=http://0.0.0.0:8000
     volumes:
       - .:/workspace
     command: /bin/bash
