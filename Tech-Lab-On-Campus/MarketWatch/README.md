@@ -25,6 +25,37 @@ The idea of this lab is to offer exposure to the RabbitMQ messaging framework, p
 - Docker
 
 ## Setting Up Our Environment
+
+### Option 1: Using GitHub Codespaces (Recommended)
+
+GitHub Codespaces provides a cloud-based development environment that's ready to use with all dependencies pre-configured.
+
+1. Navigate to [https://github.com/codespaces](https://github.com/codespaces)
+
+2. Click on "New codespace" to create a new codespace for this repository.
+
+3. Once your codespace is ready, open the terminal and navigate to the MarketWatch directory:
+    ```sh
+    cd Tech-Lab-On-Campus/MarketWatch
+    ```
+
+4. Start the Docker containers:
+    ```sh
+    docker-compose up
+    ```
+
+5. Once the containers are running, locate the **Ports** tab in your codespace (usually at the bottom of the screen).
+
+6. Find port **15672** in the ports list and click on the globe icon or forwarded address beside it to open the RabbitMQ Management UI.
+
+7. Log in to RabbitMQ using:
+   - **Username:** guest
+   - **Password:** guest
+
+You are now ready to start the lab! Begin by navigating to the [Producer-AND-Consumer](./Producer-And-Consumer/README.md) folder and reading the "README.md" file. Each of the units will contain a readme file which will give you the necessary instructions to complete the lab and test your solution.
+
+### Option 2: Using Local Development Environment
+
 For this project, we're going to leverage the use of Docker to create a helpful development environment for all of the engineers. [Docker](https://docs.docker.com/desktop/) is a tool used to integrate software dependencies and allow developers to quickly spin up software builds in portable lightweight containers which provide consistent environments, ensuring applications run the same way across various platforms. 
 
 1. Fork the repo
