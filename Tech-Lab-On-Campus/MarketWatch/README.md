@@ -59,10 +59,10 @@ You are now ready to start the lab! Begin by navigating to the [Producer-AND-Con
 For this project, we're going to leverage the use of Docker to create a helpful development environment for all of the engineers. [Docker](https://docs.docker.com/desktop/) is a tool used to integrate software dependencies and allow developers to quickly spin up software builds in portable lightweight containers which provide consistent environments, ensuring applications run the same way across various platforms. 
 
 1. Fork the repo
-![fork](../data/Images/fork-1.JPG)
+![fork](/data/Images/fork-1.JPG)
 
 2. Clone the forked repo into your working directory. Copy ssh. 
-![ssh](../data/Images/copy_ssh.PNG)
+![ssh](/data/Images/copy_ssh.PNG)
 
     ```sh
     git clone [SSH KEY]
@@ -118,7 +118,7 @@ There are two options to work on this project. Option [A] using an IDE, we recom
     * Alternative:  Click on one of the generated URLs in your terminal, such as "http://localhost:15672/", once your docker container is up and running.
     
     * After setting up IDE you should have access to rabbit mq management. It will look like the following.
-        ![rabbitmqup](../data/Images/rabbit_mq.PNG)   
+        ![rabbitmqup](/data/Images/rabbit_mq.PNG)   
     * You are now ready to start the lab. Begin by navigating to the [Producer-AND-Consumer](./Producer-And-Consumer/README.md) folder and reading the "README.md" file. Each of the units will contain a readme file which will give you the necessary instructions to complete the lab and test your solution.
 
 
