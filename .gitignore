@@ -10,3 +10,4 @@ node_modules/
 # NextJS
 next-env.d.ts
 .next/
+.venv
