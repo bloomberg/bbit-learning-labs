@@ -17,11 +17,10 @@
 import os
 import sys
 
-from solution.consumer_sol import mqConsumer  # pylint: disable=import-error
-
+from solution.rabbit_mq_consumer import RabbitMQConsumer
 
 def main() -> None:
-    consumer = mqConsumer(binding_key="Tech Lab Key",exchange_name="Tech Lab Exchange",queue_name="Tech Lab Queue")
+    consumer = RabbitMQConsumer(binding_key="Tech Lab Key",exchange_name="Tech Lab Exchange",queue_name="Tech Lab Queue")
     consumer.startConsuming()
 
 
