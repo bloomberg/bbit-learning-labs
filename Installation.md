@@ -34,10 +34,10 @@
 
 - When the container fully launches, you should have a similar output.
     You should copy the URL *(circled in red)* and paste it into your favorite web browser to launch Jupyter Lab.
-![alt text](./data/bbit_lab.PNG)
+![alt text](./data/Images/bbit_lab.PNG)
 
 
 **If you have a similar page displaying in your browser, you are all set and ready to start working on the BBIT Lab.**
-![alt text](./data/bbit_lab_2.PNG)
+![alt text](./data/Images/bbit_lab_2.PNG)
 
 Thank you!!
