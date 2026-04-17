@@ -19,4 +19,4 @@ services:
       #TODO fill in the full path of your current repo location
       - '/home/mopezen/github/bbit-learning-labs/RabbitMQ:/app'
     environment:
-      AMQP_URL: 'amqp://rabbitmq?connection_attempts=5&retry_delay=5'    
+      AMQP_URL: 'amqp://rabbitmq?connection_attempts=5&retry_delay=5'
